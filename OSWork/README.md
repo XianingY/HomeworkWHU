@@ -1,5 +1,6 @@
 # This is personal work for '武汉大学计算机学院 操作系统课程设计 内核实验',directed by Liu Huajun. #
-<br>
+> This project finished Task一 and Task二's first sub-task.
+
 ## This project meets the requirements below: ##
 
 # 一、系统调用实验 #
