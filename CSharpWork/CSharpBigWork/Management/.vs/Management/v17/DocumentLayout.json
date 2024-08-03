@@ -1,0 +1,131 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Management\\Management.csproj|f:\\csharpbigworksave\\csharpbigwork\\csharpbigwork\\csharpbigwork\\management\\management\\view\\firstpageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Management\\Management.csproj|solutionrelative:management\\view\\firstpageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Management||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Controls||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Management\\Management.csproj|F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\management\\dataaccess\\localdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Management\\Management.csproj|solutionrelative:management\\dataaccess\\localdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Management\\Management.csproj|F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\management\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Management\\Management.csproj|solutionrelative:management\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Management\\Management.csproj|F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\management\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Management\\Management.csproj|solutionrelative:management\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Management\\Management.csproj|F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\management\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Management\\Management.csproj|solutionrelative:management\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Management",
+              "DocumentMoniker": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\Management\\Management.csproj",
+              "RelativeDocumentMoniker": "Management\\Management.csproj",
+              "ToolTip": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\Management\\Management.csproj",
+              "RelativeToolTip": "Management\\Management.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-30T12:54:07.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Controls",
+              "DocumentMoniker": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\Controls\\Controls.csproj",
+              "RelativeDocumentMoniker": "Controls\\Controls.csproj",
+              "ToolTip": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\Controls\\Controls.csproj",
+              "RelativeToolTip": "Controls\\Controls.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-30T12:54:00.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FirstPageView.xaml",
+              "DocumentMoniker": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\Management\\View\\FirstPageView.xaml",
+              "RelativeDocumentMoniker": "Management\\View\\FirstPageView.xaml",
+              "ToolTip": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\Management\\View\\FirstPageView.xaml",
+              "RelativeToolTip": "Management\\View\\FirstPageView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-30T12:53:29.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LocalDataAccess.cs",
+              "DocumentMoniker": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\Management\\DataAccess\\LocalDataAccess.cs",
+              "RelativeDocumentMoniker": "Management\\DataAccess\\LocalDataAccess.cs",
+              "ToolTip": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\Management\\DataAccess\\LocalDataAccess.cs",
+              "RelativeToolTip": "Management\\DataAccess\\LocalDataAccess.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T10:07:56.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\Management\\Model\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Management\\Model\\LoginModel.cs",
+              "ToolTip": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\Management\\Model\\LoginModel.cs",
+              "RelativeToolTip": "Management\\Model\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T10:07:52.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\Management\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Management\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\Management\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "Management\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T09:45:13.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\Management\\View\\LoginView.xaml",
+              "RelativeDocumentMoniker": "Management\\View\\LoginView.xaml",
+              "ToolTip": "F:\\CSharpBigWorkSave\\CSharpBigWork\\CSharpBigWork\\CSharpBigWork\\Management\\Management\\View\\LoginView.xaml",
+              "RelativeToolTip": "Management\\View\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-30T09:18:59.311Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

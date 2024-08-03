@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\CSharpProgram\\Zhaoxi.CourseManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Zhaoxi.CourseManagement\\Management.csproj|f:\\csharpprogram\\zhaoxi.coursemanagement\\zhaoxi.coursemanagement\\view\\firstpageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Zhaoxi.CourseManagement\\Management.csproj|solutionrelative:zhaoxi.coursemanagement\\view\\firstpageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Zhaoxi.CourseManagement\\Management.csproj|f:\\csharpprogram\\zhaoxi.coursemanagement\\zhaoxi.coursemanagement\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Zhaoxi.CourseManagement\\Management.csproj|solutionrelative:zhaoxi.coursemanagement\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9634ADF-62E4-4129-9BD9-087C8C765DB5}|Zhaoxi.Controls\\Controls.csproj|f:\\csharpprogram\\zhaoxi.coursemanagement\\zhaoxi.controls\\skeletonscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9634ADF-62E4-4129-9BD9-087C8C765DB5}|Zhaoxi.Controls\\Controls.csproj|solutionrelative:zhaoxi.controls\\skeletonscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Management||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Controls||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9634ADF-62E4-4129-9BD9-087C8C765DB5}|Zhaoxi.Controls\\Zhaoxi.Controls.csproj|f:\\csharpprogram\\zhaoxi.coursemanagement\\zhaoxi.controls\\instrument.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9634ADF-62E4-4129-9BD9-087C8C765DB5}|Zhaoxi.Controls\\Zhaoxi.Controls.csproj|solutionrelative:zhaoxi.controls\\instrument.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9634ADF-62E4-4129-9BD9-087C8C765DB5}|Zhaoxi.Controls\\Controls.csproj|f:\\csharpprogram\\zhaoxi.coursemanagement\\zhaoxi.controls\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3161BD-C39C-4EA7-BADB-B9BFD7C07BF5}|Zhaoxi.CourseManagement\\CourseManagement.csproj|f:\\csharpprogram\\zhaoxi.coursemanagement\\zhaoxi.coursemanagement\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "F:\\CSharpProgram\\Zhaoxi.CourseManagement\\Zhaoxi.CourseManagement\\Model\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Zhaoxi.CourseManagement\\Model\\LoginModel.cs",
+              "ToolTip": "F:\\CSharpProgram\\Zhaoxi.CourseManagement\\Zhaoxi.CourseManagement\\Model\\LoginModel.cs",
+              "RelativeToolTip": "Zhaoxi.CourseManagement\\Model\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:54:18.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FirstPageView.xaml",
+              "DocumentMoniker": "F:\\CSharpProgram\\Zhaoxi.CourseManagement\\Zhaoxi.CourseManagement\\View\\FirstPageView.xaml",
+              "RelativeDocumentMoniker": "Zhaoxi.CourseManagement\\View\\FirstPageView.xaml",
+              "ToolTip": "F:\\CSharpProgram\\Zhaoxi.CourseManagement\\Zhaoxi.CourseManagement\\View\\FirstPageView.xaml",
+              "RelativeToolTip": "Zhaoxi.CourseManagement\\View\\FirstPageView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T16:54:20.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SkeletonScreen.xaml",
+              "DocumentMoniker": "F:\\CSharpProgram\\Zhaoxi.CourseManagement\\Zhaoxi.Controls\\SkeletonScreen.xaml",
+              "RelativeDocumentMoniker": "Zhaoxi.Controls\\SkeletonScreen.xaml",
+              "ToolTip": "F:\\CSharpProgram\\Zhaoxi.CourseManagement\\Zhaoxi.Controls\\SkeletonScreen.xaml",
+              "RelativeToolTip": "Zhaoxi.Controls\\SkeletonScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T16:53:27.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Management",
+              "DocumentMoniker": "F:\\CSharpProgram\\Zhaoxi.CourseManagement\\Zhaoxi.CourseManagement\\Management.csproj",
+              "RelativeDocumentMoniker": "Zhaoxi.CourseManagement\\Management.csproj",
+              "ToolTip": "F:\\CSharpProgram\\Zhaoxi.CourseManagement\\Zhaoxi.CourseManagement\\Management.csproj",
+              "RelativeToolTip": "Zhaoxi.CourseManagement\\Management.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-13T16:53:18.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Controls",
+              "DocumentMoniker": "F:\\CSharpProgram\\Zhaoxi.CourseManagement\\Zhaoxi.Controls\\Controls.csproj",
+              "RelativeDocumentMoniker": "Zhaoxi.Controls\\Controls.csproj",
+              "ToolTip": "F:\\CSharpProgram\\Zhaoxi.CourseManagement\\Zhaoxi.Controls\\Controls.csproj",
+              "RelativeToolTip": "Zhaoxi.Controls\\Controls.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-13T16:53:01.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Instrument.xaml",
+              "DocumentMoniker": "F:\\CSharpProgram\\Zhaoxi.CourseManagement\\Zhaoxi.Controls\\Instrument.xaml",
+              "RelativeDocumentMoniker": "Zhaoxi.Controls\\Instrument.xaml",
+              "ToolTip": "F:\\CSharpProgram\\Zhaoxi.CourseManagement\\Zhaoxi.Controls\\Instrument.xaml",
+              "RelativeToolTip": "Zhaoxi.Controls\\Instrument.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T16:42:59.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
