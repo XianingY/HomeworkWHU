@@ -1,0 +1,3 @@
+SELECT PERSON_NAME
+FROM temp
+WHERE SC_NAME = '武汉大学';

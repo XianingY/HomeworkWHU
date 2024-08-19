@@ -1,0 +1,27 @@
+SELECT SC_NAME, 
+  SUM(CASE WHEN POSITION LIKE '%董事长%' THEN 1 ELSE 0 END) AS 董事长人数,  
+  SUM(CASE WHEN POSITION LIKE '%总经理%'
+           AND POSITION NOT LIKE '%副总经理%' THEN 1 ELSE 0 END) AS 总经理人数,  
+  SUM(CASE WHEN POSITION LIKE '%法定代表人%' THEN 1 ELSE 0 END) AS 法定代表人人数,  
+  SUM(CASE WHEN POSITION LIKE '%董事%'
+           AND POSITION NOT LIKE '%董事长%'
+           AND POSITION NOT LIKE '%董事会秘书%'
+           AND POSITION NOT LIKE '%独立董事%'
+           AND POSITION NOT LIKE '%非独立董事%' THEN 1 ELSE 0 END) AS 董事人数,  
+  SUM(CASE WHEN POSITION LIKE '%副总经理%' THEN 1 ELSE 0 END) AS 副总经理人数,  
+  SUM(CASE WHEN POSITION LIKE '%董事会秘书%' THEN 1 ELSE 0 END) AS 董事会秘书人数,  
+  SUM(CASE WHEN POSITION LIKE '%独立董事%'
+           AND POSITION NOT LIKE '%非独立董事%' THEN 1 ELSE 0 END) AS 独立董事人数,
+  SUM(CASE WHEN POSITION LIKE '%非独立董事%' THEN 1 ELSE 0 END) AS 非独立董事人数,
+  COUNT(temp_unique.PERSON_NAME) AS 总高管人数
+FROM (
+  SELECT DISTINCT SC_NAME, PERSON_NAME, SEX, AGE
+  FROM temp
+  ) AS temp_unique JOIN (
+  SELECT DISTINCT PERSON_NAME, SEX, AGE, POSITION
+  FROM people
+  ) AS a ON temp_unique.PERSON_NAME = a.PERSON_NAME
+          AND temp_unique.SEX = a.SEX
+          AND temp_unique.AGE = a.AGE
+GROUP BY SC_NAME
+ORDER BY COUNT(temp_unique.PERSON_NAME) DESC;

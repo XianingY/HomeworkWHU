@@ -1,0 +1,10 @@
+SELECT
+  PERSON_NAME ,people.SECUCODE
+FROM
+  people
+WHERE
+  people.SECUCODE=(
+  SELECT SECUCODE 
+  FROM company
+  WHERE SECURITY_NAME_ABBR = "星光农机"
+)

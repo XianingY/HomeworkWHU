@@ -1,0 +1,3 @@
+SELECT DISTINCT PERSON_NAME, people.ORG_CODE, ORG_NAME
+FROM company JOIN people ON company.ORG_CODE = people.ORG_CODE
+WHERE RESUME LIKE '%武汉大学%';
