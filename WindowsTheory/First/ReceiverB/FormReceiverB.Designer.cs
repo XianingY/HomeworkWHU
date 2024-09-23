@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lsvMsgList = new System.Windows.Forms.ListView();
+            this.lstMessages = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
-            // lsvMsgList
+            // lstMessages
             // 
-            this.lsvMsgList.HideSelection = false;
-            this.lsvMsgList.Location = new System.Drawing.Point(70, 22);
-            this.lsvMsgList.Name = "lsvMsgList";
-            this.lsvMsgList.Size = new System.Drawing.Size(661, 393);
-            this.lsvMsgList.TabIndex = 0;
-            this.lsvMsgList.UseCompatibleStateImageBehavior = false;
-            this.lsvMsgList.View = System.Windows.Forms.View.List;
+            this.lstMessages.HideSelection = false;
+            this.lstMessages.Location = new System.Drawing.Point(70, 22);
+            this.lstMessages.Name = "lstMessages";
+            this.lstMessages.Size = new System.Drawing.Size(661, 393);
+            this.lstMessages.TabIndex = 0;
+            this.lstMessages.UseCompatibleStateImageBehavior = false;
+            this.lstMessages.View = System.Windows.Forms.View.List;
             // 
             // FormReceiverB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lsvMsgList);
+            this.Controls.Add(this.lstMessages);
             this.Name = "FormReceiverB";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -55,7 +55,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ListView lsvMsgList;
+        private System.Windows.Forms.ListView lstMessages;
     }
 }
 

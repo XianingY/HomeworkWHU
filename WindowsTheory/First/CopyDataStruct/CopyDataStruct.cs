@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace CopyDataStruct
 {
+    [StructLayout(LayoutKind.Sequential)]
     public struct COPYDATASTRUCT
     {
         public IntPtr dwData;
         public int cbData;
-        [MarshalAs(UnmanagedType.LPStr)]
-        public string lpData;
+        public IntPtr lpData;
     }
 }

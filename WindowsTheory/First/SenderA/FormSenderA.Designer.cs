@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtString = new System.Windows.Forms.TextBox();
-            this.txtInt = new System.Windows.Forms.TextBox();
+            this.txtMessage = new System.Windows.Forms.TextBox();
+            this.txtTargetWindow = new System.Windows.Forms.TextBox();
             this.btnSend = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // txtString
+            // txtMessage
             // 
-            this.txtString.Location = new System.Drawing.Point(351, 47);
-            this.txtString.Name = "txtString";
-            this.txtString.Size = new System.Drawing.Size(100, 25);
-            this.txtString.TabIndex = 0;
+            this.txtMessage.Location = new System.Drawing.Point(351, 47);
+            this.txtMessage.Name = "txtMessage";
+            this.txtMessage.Size = new System.Drawing.Size(100, 25);
+            this.txtMessage.TabIndex = 0;
             // 
-            // txtInt
+            // txtTargetWindow
             // 
-            this.txtInt.Location = new System.Drawing.Point(106, 47);
-            this.txtInt.Name = "txtInt";
-            this.txtInt.Size = new System.Drawing.Size(100, 25);
-            this.txtInt.TabIndex = 1;
+            this.txtTargetWindow.Location = new System.Drawing.Point(106, 47);
+            this.txtTargetWindow.Name = "txtTargetWindow";
+            this.txtTargetWindow.Size = new System.Drawing.Size(100, 25);
+            this.txtTargetWindow.TabIndex = 1;
             // 
             // btnSend
             // 
@@ -63,8 +63,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnSend);
-            this.Controls.Add(this.txtInt);
-            this.Controls.Add(this.txtString);
+            this.Controls.Add(this.txtTargetWindow);
+            this.Controls.Add(this.txtMessage);
             this.Name = "FormSenderA";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -74,8 +74,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtString;
-        private System.Windows.Forms.TextBox txtInt;
+        private System.Windows.Forms.TextBox txtMessage;
+        private System.Windows.Forms.TextBox txtTargetWindow;
         private System.Windows.Forms.Button btnSend;
     }
 }

@@ -2,7 +2,6 @@ F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\bin\Debug\Receiver
 F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\bin\Debug\ReceiverB.exe
 F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\bin\Debug\ReceiverB.pdb
 F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\bin\Debug\CopyDataStruct.dll
-F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\bin\Debug\CopyDataStruct.pdb
 F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Debug\ReceiverB.csproj.AssemblyReference.cache
 F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Debug\ReceiverB.FormReceiverB.resources
 F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Debug\ReceiverB.Properties.Resources.resources

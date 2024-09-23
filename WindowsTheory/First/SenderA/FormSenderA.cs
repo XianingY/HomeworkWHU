@@ -14,13 +14,14 @@ namespace SenderA
 {
     public partial class FormSenderA : Form
     {
-        [DllImport("User32.dll", EntryPoint = "SendMessage")]
-        private static extern int SendMessage(int hWnd, int Msg, int wParam, ref COPYDATASTRUCT lParam);
+        [DllImport("user32.dll", CharSet = CharSet.Auto)]
+        private static extern IntPtr FindWindow(string lpClassName, string lpWindowName);
 
-        [DllImport("User32.dll", EntryPoint = "FindWindow")]
-        private static extern int FindWindow(string lpClassName, string lpWindowName);
+        [DllImport("user32.dll", CharSet = CharSet.Auto)]
+        private static extern bool SendMessage(IntPtr hWnd, int Msg, IntPtr wParam, ref COPYDATASTRUCT lParam);
 
-        const int WM_COPYDATA = 0x004A;
+        private const int WM_COPYDATA = 0x004A;
+
         public FormSenderA()
         {
             InitializeComponent();
@@ -28,21 +29,28 @@ namespace SenderA
 
         private void btnSend_Click(object sender, EventArgs e)
         {
-            int hWnd = FindWindow(null, @"消息接受者");
-            if (hWnd == 0)
+            string targetWindow = txtTargetWindow.Text;
+            string message = txtMessage.Text;
+
+            IntPtr hWnd = FindWindow(null, targetWindow);
+            if (hWnd == IntPtr.Zero)
             {
-                MessageBox.Show("未找到消息接受者！");
+                MessageBox.Show("Target window not found.");
+                return;
             }
-            else
-            {
-                byte[] sarr = System.Text.Encoding.Default.GetBytes(txtString.Text);
-                int len = sarr.Length;
-                COPYDATASTRUCT cds;
-                cds.dwData = (IntPtr)Convert.ToInt16(txtInt.Text);
-                cds.cbData = len + 1;
-                cds.lpData = txtString.Text;
-                SendMessage(hWnd, WM_COPYDATA, 0, ref cds);
-            }
+
+            byte[] sarr = Encoding.Default.GetBytes(message);
+            int len = sarr.Length;
+            COPYDATASTRUCT cds;
+            cds.dwData = IntPtr.Zero;
+            cds.cbData = len + 1;
+            cds.lpData = Marshal.AllocHGlobal(len + 1);
+            Marshal.Copy(sarr, 0, cds.lpData, len);
+            Marshal.WriteByte(cds.lpData, len, 0);
+
+            SendMessage(hWnd, WM_COPYDATA, IntPtr.Zero, ref cds);
+
+            Marshal.FreeHGlobal(cds.lpData);
         }
     }
 }

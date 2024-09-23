@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4527484D-99F0-492D-BDB9-2D10B97292A3}|CopyDataStruct\\CopyDataStruct.csproj|F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\copydatastruct\\copydatastruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DCAC579A-792A-4FBD-8A7A-F959E1E0340D}|SenderA\\SenderA.csproj|F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\sendera\\formsendera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCAC579A-792A-4FBD-8A7A-F959E1E0340D}|SenderA\\SenderA.csproj|solutionrelative:sendera\\formsendera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4527484D-99F0-492D-BDB9-2D10B97292A3}|CopyDataStruct\\CopyDataStruct.csproj|f:\\githubrepository\\homeworkwhu\\windowstheory\\first\\copydatastruct\\copydatastruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4527484D-99F0-492D-BDB9-2D10B97292A3}|CopyDataStruct\\CopyDataStruct.csproj|solutionrelative:copydatastruct\\copydatastruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCAC579A-792A-4FBD-8A7A-F959E1E0340D}|SenderA\\SenderA.csproj|f:\\githubrepository\\homeworkwhu\\windowstheory\\first\\sendera\\formsendera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCAC579A-792A-4FBD-8A7A-F959E1E0340D}|SenderA\\SenderA.csproj|solutionrelative:sendera\\formsendera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCAC579A-792A-4FBD-8A7A-F959E1E0340D}|SenderA\\SenderA.csproj|F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\sendera\\formsendera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCAC579A-792A-4FBD-8A7A-F959E1E0340D}|SenderA\\SenderA.csproj|solutionrelative:sendera\\formsendera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FD6B2C8-6C31-441A-9C4F-22467D5FD61B}|ReceiverB\\ReceiverB.csproj|F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\receiverb\\formreceiverb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3FD6B2C8-6C31-441A-9C4F-22467D5FD61B}|ReceiverB\\ReceiverB.csproj|F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\receiverb\\formreceiverb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FD6B2C8-6C31-441A-9C4F-22467D5FD61B}|ReceiverB\\ReceiverB.csproj|solutionrelative:receiverb\\formreceiverb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCAC579A-792A-4FBD-8A7A-F959E1E0340D}|SenderA\\SenderA.csproj|f:\\githubrepository\\homeworkwhu\\windowstheory\\first\\sendera\\formsendera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DCAC579A-792A-4FBD-8A7A-F959E1E0340D}|SenderA\\SenderA.csproj|solutionrelative:sendera\\formsendera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B76F508F-E79B-42DF-BD2E-A988B2A0F781}|ReceiverC\\ReceiverC.csproj|F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\receiverc\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,57 +47,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FormReceiverB.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\ReceiverB\\FormReceiverB.cs",
-              "RelativeDocumentMoniker": "ReceiverB\\FormReceiverB.cs",
-              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\ReceiverB\\FormReceiverB.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "ReceiverB\\FormReceiverB.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T07:00:07.394Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "FormReceiverB.cs",
               "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\ReceiverB\\FormReceiverB.cs",
               "RelativeDocumentMoniker": "ReceiverB\\FormReceiverB.cs",
               "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\ReceiverB\\FormReceiverB.cs",
               "RelativeToolTip": "ReceiverB\\FormReceiverB.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAwCIAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T08:00:46.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FormSenderA.cs",
               "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\SenderA\\FormSenderA.cs",
               "RelativeDocumentMoniker": "SenderA\\FormSenderA.cs",
               "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\SenderA\\FormSenderA.cs",
               "RelativeToolTip": "SenderA\\FormSenderA.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwCoAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T08:26:52.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CopyDataStruct.cs",
-              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\CopyDataStruct\\CopyDataStruct.cs",
-              "RelativeDocumentMoniker": "CopyDataStruct\\CopyDataStruct.cs",
-              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\CopyDataStruct\\CopyDataStruct.cs",
-              "RelativeToolTip": "CopyDataStruct\\CopyDataStruct.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T06:57:41.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "FormSenderA.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\SenderA\\FormSenderA.cs",
               "RelativeDocumentMoniker": "SenderA\\FormSenderA.cs",
@@ -109,6 +84,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CopyDataStruct.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\CopyDataStruct\\CopyDataStruct.cs",
+              "RelativeDocumentMoniker": "CopyDataStruct\\CopyDataStruct.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\CopyDataStruct\\CopyDataStruct.cs",
+              "RelativeToolTip": "CopyDataStruct\\CopyDataStruct.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T06:57:41.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormReceiverB.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\ReceiverB\\FormReceiverB.cs",
+              "RelativeDocumentMoniker": "ReceiverB\\FormReceiverB.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\ReceiverB\\FormReceiverB.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "ReceiverB\\FormReceiverB.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T07:00:07.394Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\ReceiverC\\MainWindow.xaml",
@@ -116,8 +116,7 @@
               "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\ReceiverC\\MainWindow.xaml",
               "RelativeToolTip": "ReceiverC\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-22T07:00:26.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T07:00:26.154Z"
             },
             {
               "$type": "Document",
@@ -129,8 +128,7 @@
               "RelativeToolTip": "ReceiverC\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T07:00:25.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T07:00:25.785Z"
             }
           ]
         }
