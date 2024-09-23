@@ -30,7 +30,8 @@
         {
             this.txtMessage = new System.Windows.Forms.TextBox();
             this.txtTargetWindow = new System.Windows.Forms.TextBox();
-            this.btnSend = new System.Windows.Forms.Button();
+            this.btnSend1 = new System.Windows.Forms.Button();
+            this.btnSend2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtMessage
@@ -47,22 +48,33 @@
             this.txtTargetWindow.Size = new System.Drawing.Size(100, 25);
             this.txtTargetWindow.TabIndex = 1;
             // 
-            // btnSend
+            // btnSend1
             // 
-            this.btnSend.Location = new System.Drawing.Point(236, 119);
-            this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(75, 23);
-            this.btnSend.TabIndex = 2;
-            this.btnSend.Text = "Send";
-            this.btnSend.UseVisualStyleBackColor = true;
-            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
+            this.btnSend1.Location = new System.Drawing.Point(200, 129);
+            this.btnSend1.Name = "btnSend1";
+            this.btnSend1.Size = new System.Drawing.Size(106, 23);
+            this.btnSend1.TabIndex = 2;
+            this.btnSend1.Text = "触发消息1";
+            this.btnSend1.UseVisualStyleBackColor = true;
+            this.btnSend1.Click += new System.EventHandler(this.btnSend1_Click);
+            // 
+            // btnSend2
+            // 
+            this.btnSend2.Location = new System.Drawing.Point(200, 173);
+            this.btnSend2.Name = "btnSend2";
+            this.btnSend2.Size = new System.Drawing.Size(106, 23);
+            this.btnSend2.TabIndex = 3;
+            this.btnSend2.Text = "触发消息2";
+            this.btnSend2.UseVisualStyleBackColor = true;
+            this.btnSend2.Click += new System.EventHandler(this.btnSend2_Click);
             // 
             // FormSenderA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnSend);
+            this.Controls.Add(this.btnSend2);
+            this.Controls.Add(this.btnSend1);
             this.Controls.Add(this.txtTargetWindow);
             this.Controls.Add(this.txtMessage);
             this.Name = "FormSenderA";
@@ -76,7 +88,8 @@
 
         private System.Windows.Forms.TextBox txtMessage;
         private System.Windows.Forms.TextBox txtTargetWindow;
-        private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.Button btnSend1;
+        private System.Windows.Forms.Button btnSend2;
     }
 }
 

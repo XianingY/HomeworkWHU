@@ -10,3 +10,4 @@ F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Debug\Receiver
 F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Debug\ReceiverB.csproj.Up2Date
 F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Debug\ReceiverB.exe
 F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Debug\ReceiverB.pdb
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\bin\Debug\CopyDataStruct.pdb

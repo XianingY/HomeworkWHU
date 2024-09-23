@@ -13,3 +13,6 @@ F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverC\obj\Debug\Receiver
 F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverC\obj\Debug\ReceiverC.csproj.CoreCompileInputs.cache
 F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverC\obj\Debug\ReceiverC.exe
 F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverC\obj\Debug\ReceiverC.pdb
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverC\bin\Debug\CopyDataStruct.dll
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverC\bin\Debug\CopyDataStruct.pdb
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverC\obj\Debug\ReceiverC.csproj.Up2Date

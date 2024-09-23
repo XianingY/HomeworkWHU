@@ -17,7 +17,7 @@ namespace ReceiverB
         public FormReceiverB()
         {
             InitializeComponent();
-            this.Text = "B";
+            this.Text = "ReceiverB";
         }
 
 
@@ -31,7 +31,7 @@ namespace ReceiverB
             {
                 COPYDATASTRUCT cds = (COPYDATASTRUCT)m.GetLParam(typeof(COPYDATASTRUCT));
                 string message = Marshal.PtrToStringAnsi(cds.lpData);
-                lstMessages.Items.Add($"Received: {message} at {DateTime.Now}");
+                lstMessages.Items.Add($"ReceiverB接收到消息: {message} ，时间为 {DateTime.Now}");
             }
             else
             {
