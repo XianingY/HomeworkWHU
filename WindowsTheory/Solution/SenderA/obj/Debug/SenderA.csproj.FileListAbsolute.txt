@@ -1,0 +1,12 @@
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Solution\SenderA\bin\Debug\SenderA.exe.config
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Solution\SenderA\bin\Debug\SenderA.exe
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Solution\SenderA\bin\Debug\SenderA.pdb
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Solution\SenderA\bin\Debug\CopyDataStruct.dll
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Solution\SenderA\bin\Debug\CopyDataStruct.pdb
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Solution\SenderA\obj\Debug\SenderA.csproj.AssemblyReference.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Solution\SenderA\obj\Debug\SenderA.Properties.Resources.resources
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Solution\SenderA\obj\Debug\SenderA.csproj.GenerateResource.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Solution\SenderA\obj\Debug\SenderA.csproj.CoreCompileInputs.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Solution\SenderA\obj\Debug\SenderA.csproj.Up2Date
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Solution\SenderA\obj\Debug\SenderA.exe
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Solution\SenderA\obj\Debug\SenderA.pdb
