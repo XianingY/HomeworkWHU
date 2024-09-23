@@ -1,0 +1,14 @@
+F:\GiteeRepo\dotnet\1a\bin\Debug\net8.0\1a.exe
+F:\GiteeRepo\dotnet\1a\bin\Debug\net8.0\1a.deps.json
+F:\GiteeRepo\dotnet\1a\bin\Debug\net8.0\1a.runtimeconfig.json
+F:\GiteeRepo\dotnet\1a\bin\Debug\net8.0\1a.dll
+F:\GiteeRepo\dotnet\1a\bin\Debug\net8.0\1a.pdb
+F:\GiteeRepo\dotnet\1a\obj\Debug\net8.0\1a.GeneratedMSBuildEditorConfig.editorconfig
+F:\GiteeRepo\dotnet\1a\obj\Debug\net8.0\1a.AssemblyInfoInputs.cache
+F:\GiteeRepo\dotnet\1a\obj\Debug\net8.0\1a.AssemblyInfo.cs
+F:\GiteeRepo\dotnet\1a\obj\Debug\net8.0\1a.csproj.CoreCompileInputs.cache
+F:\GiteeRepo\dotnet\1a\obj\Debug\net8.0\1a.dll
+F:\GiteeRepo\dotnet\1a\obj\Debug\net8.0\refint\1a.dll
+F:\GiteeRepo\dotnet\1a\obj\Debug\net8.0\1a.pdb
+F:\GiteeRepo\dotnet\1a\obj\Debug\net8.0\1a.genruntimeconfig.cache
+F:\GiteeRepo\dotnet\1a\obj\Debug\net8.0\ref\1a.dll

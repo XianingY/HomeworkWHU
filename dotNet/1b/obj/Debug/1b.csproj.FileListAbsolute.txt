@@ -1,0 +1,9 @@
+F:\GiteeRepo\dotnet\1b\bin\Debug\1b.exe.config
+F:\GiteeRepo\dotnet\1b\bin\Debug\1b.exe
+F:\GiteeRepo\dotnet\1b\bin\Debug\1b.pdb
+F:\GiteeRepo\dotnet\1b\obj\Debug\1b.csproj.AssemblyReference.cache
+F:\GiteeRepo\dotnet\1b\obj\Debug\_1b.Properties.Resources.resources
+F:\GiteeRepo\dotnet\1b\obj\Debug\1b.csproj.GenerateResource.cache
+F:\GiteeRepo\dotnet\1b\obj\Debug\1b.csproj.CoreCompileInputs.cache
+F:\GiteeRepo\dotnet\1b\obj\Debug\1b.exe
+F:\GiteeRepo\dotnet\1b\obj\Debug\1b.pdb
