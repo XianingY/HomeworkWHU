@@ -36,14 +36,14 @@ namespace SenderA
 
             if (targetWindow != "ReceiverB")
             {
-                MessageBox.Show("Target ReceiverB window not found.");
+                MessageBox.Show("未找到ReceiverB.");
                 return;
             }
 
             IntPtr hWnd = FindWindow(null, targetWindow);
             if (hWnd == IntPtr.Zero)
             {
-                MessageBox.Show("Target ReceiverB window not found.");
+                MessageBox.Show("未找到ReceiverB.");
                 return;
             }
 
@@ -69,14 +69,14 @@ namespace SenderA
 
             if (targetWindow != "ReceiverC")
             {
-                MessageBox.Show("Target ReceiverC window not found.");
+                MessageBox.Show("未找到ReceiverC.");
                 return;
             }
 
             IntPtr hWnd = FindWindow(null, targetWindow);
             if (hWnd == IntPtr.Zero)
             {
-                MessageBox.Show("Target ReceiverC window not found.");
+                MessageBox.Show("未找到ReceiverC.");
                 return;
             }
 

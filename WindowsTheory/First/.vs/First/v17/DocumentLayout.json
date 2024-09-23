@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{3FD6B2C8-6C31-441A-9C4F-22467D5FD61B}|ReceiverB\\ReceiverB.csproj|solutionrelative:receiverb\\formreceiverb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FD6B2C8-6C31-441A-9C4F-22467D5FD61B}|ReceiverB\\ReceiverB.csproj|f:\\githubrepository\\homeworkwhu\\windowstheory\\first\\receiverb\\formreceiverb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3FD6B2C8-6C31-441A-9C4F-22467D5FD61B}|ReceiverB\\ReceiverB.csproj|F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\receiverb\\formreceiverb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FD6B2C8-6C31-441A-9C4F-22467D5FD61B}|ReceiverB\\ReceiverB.csproj|solutionrelative:receiverb\\formreceiverb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,18 +54,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormReceiverB.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\ReceiverB\\FormReceiverB.cs",
-              "RelativeDocumentMoniker": "ReceiverB\\FormReceiverB.cs",
-              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\ReceiverB\\FormReceiverB.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "ReceiverB\\FormReceiverB.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:29:06.41Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\ReceiverC\\MainWindow.xaml",
@@ -73,8 +61,7 @@
               "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\ReceiverC\\MainWindow.xaml",
               "RelativeToolTip": "ReceiverC\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-22T07:00:26.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T07:00:26.154Z"
             },
             {
               "$type": "Document",
@@ -86,7 +73,19 @@
               "RelativeToolTip": "ReceiverC\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T07:00:25.785Z",
+              "WhenOpened": "2024-09-22T07:00:25.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormSenderA.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\SenderA\\FormSenderA.cs",
+              "RelativeDocumentMoniker": "SenderA\\FormSenderA.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\SenderA\\FormSenderA.cs",
+              "RelativeToolTip": "SenderA\\FormSenderA.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAuwDQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T08:26:52.109Z",
               "EditorCaption": ""
             },
             {
@@ -103,6 +102,17 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormReceiverB.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\ReceiverB\\FormReceiverB.cs",
+              "RelativeDocumentMoniker": "ReceiverB\\FormReceiverB.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\ReceiverB\\FormReceiverB.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "ReceiverB\\FormReceiverB.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T07:29:06.41Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "CopyDataStruct.cs",
               "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\CopyDataStruct\\CopyDataStruct.cs",
@@ -111,8 +121,7 @@
               "RelativeToolTip": "CopyDataStruct\\CopyDataStruct.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T06:57:41.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T06:57:41.899Z"
             },
             {
               "$type": "Document",
@@ -124,21 +133,7 @@
               "RelativeToolTip": "ReceiverB\\FormReceiverB.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwCEAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T08:00:46.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormSenderA.cs",
-              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\SenderA\\FormSenderA.cs",
-              "RelativeDocumentMoniker": "SenderA\\FormSenderA.cs",
-              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\WindowsTheory\\First\\SenderA\\FormSenderA.cs",
-              "RelativeToolTip": "SenderA\\FormSenderA.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwDYAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T08:26:52.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T08:00:46.663Z"
             }
           ]
         }
