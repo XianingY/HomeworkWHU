@@ -1,0 +1,10 @@
+F:\GiteeRepo\dotnet\Bank\bin\Debug\Bank.exe.config
+F:\GiteeRepo\dotnet\Bank\bin\Debug\Bank.exe
+F:\GiteeRepo\dotnet\Bank\bin\Debug\Bank.pdb
+F:\GiteeRepo\dotnet\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+F:\GiteeRepo\dotnet\Bank\obj\Debug\Bank.Properties.Resources.resources
+F:\GiteeRepo\dotnet\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+F:\GiteeRepo\dotnet\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+F:\GiteeRepo\dotnet\Bank\obj\Debug\Bank.exe
+F:\GiteeRepo\dotnet\Bank\obj\Debug\Bank.pdb
+F:\GiteeRepo\dotnet\Bank\obj\Debug\Bank.MainForm.resources
