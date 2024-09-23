@@ -1,0 +1,6 @@
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\CopyDataStruct\bin\Release\CopyDataStruct.dll
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\CopyDataStruct\bin\Release\CopyDataStruct.pdb
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\CopyDataStruct\obj\Release\CopyDataStruct.csproj.AssemblyReference.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\CopyDataStruct\obj\Release\CopyDataStruct.csproj.CoreCompileInputs.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\CopyDataStruct\obj\Release\CopyDataStruct.dll
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\CopyDataStruct\obj\Release\CopyDataStruct.pdb

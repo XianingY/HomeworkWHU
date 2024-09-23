@@ -1,0 +1,13 @@
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\bin\Release\ReceiverB.exe.config
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\bin\Release\ReceiverB.exe
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\bin\Release\ReceiverB.pdb
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\bin\Release\CopyDataStruct.dll
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\bin\Release\CopyDataStruct.pdb
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Release\ReceiverB.csproj.AssemblyReference.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Release\ReceiverB.FormReceiverB.resources
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Release\ReceiverB.Properties.Resources.resources
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Release\ReceiverB.csproj.GenerateResource.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Release\ReceiverB.csproj.CoreCompileInputs.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Release\ReceiverB.csproj.Up2Date
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Release\ReceiverB.exe
+F:\GithubRepository\HomeworkWHU\WindowsTheory\First\ReceiverB\obj\Release\ReceiverB.pdb

@@ -25,6 +25,7 @@ namespace SenderA
         public FormSenderA()
         {
             InitializeComponent();
+            this.Text = "SenderA";
         }
 
         
@@ -55,7 +56,6 @@ namespace SenderA
             cds.lpData = Marshal.AllocHGlobal(len + 1);
             Marshal.Copy(sarr, 0, cds.lpData, len);
             Marshal.WriteByte(cds.lpData, len, 0);
-
             SendMessage(hWnd, WM_COPYDATA, IntPtr.Zero, ref cds);
 
             Marshal.FreeHGlobal(cds.lpData);
@@ -93,7 +93,5 @@ namespace SenderA
 
             Marshal.FreeHGlobal(cds.lpData);
         }
-
-
     }
 }

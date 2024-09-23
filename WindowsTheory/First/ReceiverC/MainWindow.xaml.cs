@@ -35,7 +35,7 @@ namespace ReceiverC
         {
             WindowInteropHelper helper = new WindowInteropHelper(this);
             HwndSource source = HwndSource.FromHwnd(helper.Handle);
-            source.AddHook(WndProc);
+            source.AddHook(WndProc);//添加钩子函数
         }
 
         private IntPtr WndProc(IntPtr hwnd, int msg, IntPtr wParam, IntPtr lParam, ref bool handled)
