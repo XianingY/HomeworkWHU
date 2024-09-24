@@ -23,7 +23,7 @@ namespace Bank
             account = new CreditAccount("2022302111073", 20000, 15000);
             atm = new ATM();
             atm.BigMoneyFetched += Atm_BigMoneyFetched;
-            lblBalance.Text = $"Balance: {account.Balance}";
+            lblBalance.Text = $"当前余额为: {account.Balance}";
         }
 
         private void btnWithdraw_Click(object sender, EventArgs e)
@@ -39,7 +39,7 @@ namespace Bank
             try
             {
                 atm.Withdraw(account, amount);
-                lblBalance.Text = $"Balance: {account.Balance}";
+                lblBalance.Text = $"当前余额为: {account.Balance}";
             }
             catch (InvalidOperationException ex)
             {
@@ -54,7 +54,7 @@ namespace Bank
             Random random = new Random();
             if (random.NextDouble() < 0.3)
             {
-                throw new BadCashException("Detected bad cash!");
+                throw new BadCashException("取款时有坏钞出现，此ATM已崩溃!");
             }
         }
         private void btnDeposit_Click(object sender, EventArgs e)

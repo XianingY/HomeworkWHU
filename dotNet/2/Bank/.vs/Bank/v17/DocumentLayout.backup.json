@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\2\\bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\2\\bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -58,8 +58,7 @@
               "RelativeToolTip": "MainForm.Designer.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAswFIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:58:36.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T15:58:36.964Z"
             },
             {
               "$type": "Document",
@@ -67,9 +66,9 @@
               "Title": "MainForm.cs",
               "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAswDgAAAAQAAAAAAAAAA==",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\MainForm.cs*",
+              "RelativeToolTip": "MainForm.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T15:58:18.468Z",
               "EditorCaption": ""
@@ -84,8 +83,7 @@
               "RelativeToolTip": "Exception.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:57:59.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T15:57:59.242Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "ATM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:57:31.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T15:57:31.995Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "Account.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:56:58.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T15:56:58.342Z"
             },
             {
               "$type": "Document",
@@ -122,8 +118,7 @@
               "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\MainForm.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "MainForm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:56:25.836Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-09-23T15:56:25.836Z"
             }
           ]
         }

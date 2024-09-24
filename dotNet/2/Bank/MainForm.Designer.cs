@@ -37,7 +37,7 @@
             this.btnWithdraw.Name = "btnWithdraw";
             this.btnWithdraw.Size = new System.Drawing.Size(75, 23);
             this.btnWithdraw.TabIndex = 0;
-            this.btnWithdraw.Text = "Withdraw";
+            this.btnWithdraw.Text = "取款";
             this.btnWithdraw.UseVisualStyleBackColor = true;
             this.btnWithdraw.Click += new System.EventHandler(this.btnWithdraw_Click);
             // 
@@ -47,7 +47,7 @@
             this.btnDeposit.Name = "btnDeposit";
             this.btnDeposit.Size = new System.Drawing.Size(75, 23);
             this.btnDeposit.TabIndex = 1;
-            this.btnDeposit.Text = "Deposit";
+            this.btnDeposit.Text = "存款";
             this.btnDeposit.UseVisualStyleBackColor = true;
             this.btnDeposit.Click += new System.EventHandler(this.btnDeposit_Click);
             // 
@@ -65,7 +65,7 @@
             this.lblBalance.Name = "lblBalance";
             this.lblBalance.Size = new System.Drawing.Size(52, 13);
             this.lblBalance.TabIndex = 3;
-            this.lblBalance.Text = "Balance: ";
+            this.lblBalance.Text = "当前余额为: ";
             // 
             // MainForm
             // 
@@ -77,7 +77,7 @@
             this.Controls.Add(this.btnDeposit);
             this.Controls.Add(this.btnWithdraw);
             this.Name = "MainForm";
-            this.Text = "ATM Simulator";
+            this.Text = "ATM 模拟器";
             this.ResumeLayout(false);
             this.PerformLayout();
         }
