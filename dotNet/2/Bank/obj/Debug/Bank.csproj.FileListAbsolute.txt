@@ -8,3 +8,13 @@ F:\GiteeRepo\dotnet\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
 F:\GiteeRepo\dotnet\Bank\obj\Debug\Bank.exe
 F:\GiteeRepo\dotnet\Bank\obj\Debug\Bank.pdb
 F:\GiteeRepo\dotnet\Bank\obj\Debug\Bank.MainForm.resources
+F:\GithubRepository\HomeworkWHU\dotNet\2\Bank\bin\Debug\Bank.exe.config
+F:\GithubRepository\HomeworkWHU\dotNet\2\Bank\bin\Debug\Bank.exe
+F:\GithubRepository\HomeworkWHU\dotNet\2\Bank\bin\Debug\Bank.pdb
+F:\GithubRepository\HomeworkWHU\dotNet\2\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+F:\GithubRepository\HomeworkWHU\dotNet\2\Bank\obj\Debug\Bank.MainForm.resources
+F:\GithubRepository\HomeworkWHU\dotNet\2\Bank\obj\Debug\Bank.Properties.Resources.resources
+F:\GithubRepository\HomeworkWHU\dotNet\2\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+F:\GithubRepository\HomeworkWHU\dotNet\2\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+F:\GithubRepository\HomeworkWHU\dotNet\2\Bank\obj\Debug\Bank.exe
+F:\GithubRepository\HomeworkWHU\dotNet\2\Bank\obj\Debug\Bank.pdb

@@ -20,16 +20,24 @@ namespace Bank
         {
             InitializeComponent();
             bank = new Bank("MyBank");
-            account = new CreditAccount("123456", 5000, 2000);
+            account = new CreditAccount("2022302111073", 20000, 15000);
             atm = new ATM();
             atm.BigMoneyFetched += Atm_BigMoneyFetched;
+            lblBalance.Text = $"Balance: {account.Balance}";
         }
 
         private void btnWithdraw_Click(object sender, EventArgs e)
         {
+            decimal amount;
+
+            if (!decimal.TryParse(txtAmount.Text, out amount))
+            {
+                MessageBox.Show("请输入正确的金额格式。");
+                return;
+            }
+
             try
             {
-                decimal amount = decimal.Parse(txtAmount.Text);
                 atm.Withdraw(account, amount);
                 lblBalance.Text = $"Balance: {account.Balance}";
             }
@@ -49,10 +57,22 @@ namespace Bank
                 throw new BadCashException("Detected bad cash!");
             }
         }
+        private void btnDeposit_Click(object sender, EventArgs e)
+        {
+            decimal amount;
+            if (!decimal.TryParse(txtAmount.Text, out amount))
+            {
+                MessageBox.Show("请输入正确的金额格式。");
+                return;
+            }
+
+            account.Deposit(amount);
+            lblBalance.Text = $"Balance: {account.Balance}";
+        }
 
         private void Atm_BigMoneyFetched(object sender, BigMoneyArgs e)
         {
-            MessageBox.Show($"Alert: Big money fetched! Account: {e.AccountNumber}, Amount: {e.Amount}");
+            MessageBox.Show($"检测到大额取款！\r【取款账户】: {e.AccountNumber}\r【取款金额】: {e.Amount} 元（人民币）");
         }
     }
 }
