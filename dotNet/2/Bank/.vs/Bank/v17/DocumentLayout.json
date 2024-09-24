@@ -3,28 +3,64 @@
   "WorkspaceRootPath": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\2\\bank\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\2\\bank\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\2\\bank\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\2\\bank\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\2\\bank\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\2\\bank\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\2\\bank\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\2\\bank\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\2\\bank\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\2\\bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\exception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:exception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\2\\bank\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E821AC3-BD4E-4EBF-A790-69301ED4CAEE}|Bank.csproj|solutionrelative:atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,71 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "MainForm.Designer.cs",
-              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\MainForm.Designer.cs",
-              "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:58:36.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:58:18.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Exception.cs",
-              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\Exception.cs",
-              "RelativeDocumentMoniker": "Exception.cs",
-              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\Exception.cs",
-              "RelativeToolTip": "Exception.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:57:59.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ATM.cs",
-              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\ATM.cs",
-              "RelativeDocumentMoniker": "ATM.cs",
-              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\ATM.cs",
-              "RelativeToolTip": "ATM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:57:31.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Account.cs",
-              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\Account.cs",
-              "RelativeDocumentMoniker": "Account.cs",
-              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\Account.cs",
-              "RelativeToolTip": "Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:56:58.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainForm.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
@@ -123,6 +95,186 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T15:56:25.836Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\UserManager.cs",
+              "RelativeDocumentMoniker": "UserManager.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\UserManager.cs",
+              "RelativeToolTip": "UserManager.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T12:34:22.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterForm.Designer.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\RegisterForm.Designer.cs",
+              "RelativeDocumentMoniker": "RegisterForm.Designer.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\RegisterForm.Designer.cs",
+              "RelativeToolTip": "RegisterForm.Designer.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwHIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T12:38:50.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MainForm.Designer.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\MainForm.Designer.cs",
+              "RelativeToolTip": "MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T15:58:36.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAEwHgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T15:58:18.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "LoginForm.Designer.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\LoginForm.Designer.cs",
+              "RelativeToolTip": "LoginForm.Designer.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwF8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T12:43:53.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\LoginForm.cs",
+              "RelativeToolTip": "LoginForm.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T12:43:31.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T12:32:02.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\LoginForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "LoginForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T12:43:29.772Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "RegisterForm.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\RegisterForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "RegisterForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T12:37:25.329Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "RegisterForm.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\RegisterForm.cs",
+              "RelativeToolTip": "RegisterForm.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA3wCIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T12:37:29.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T12:41:56.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ATM.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\ATM.cs",
+              "RelativeDocumentMoniker": "ATM.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\ATM.cs",
+              "RelativeToolTip": "ATM.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T12:26:57.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Exception.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\Exception.cs",
+              "RelativeDocumentMoniker": "Exception.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\Exception.cs",
+              "RelativeToolTip": "Exception.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T15:57:59.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Account.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\Account.cs",
+              "RelativeDocumentMoniker": "Account.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\2\\Bank\\Account.cs",
+              "RelativeToolTip": "Account.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADwvwgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T15:56:58.342Z",
+              "EditorCaption": ""
             }
           ]
         }
