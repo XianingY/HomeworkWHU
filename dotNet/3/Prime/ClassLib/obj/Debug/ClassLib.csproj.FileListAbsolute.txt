@@ -1,0 +1,6 @@
+F:\GithubRepository\HomeworkWHU\dotNet\3\Prime\ClassLib\bin\Debug\ClassLib.dll
+F:\GithubRepository\HomeworkWHU\dotNet\3\Prime\ClassLib\bin\Debug\ClassLib.pdb
+F:\GithubRepository\HomeworkWHU\dotNet\3\Prime\ClassLib\obj\Debug\ClassLib.csproj.AssemblyReference.cache
+F:\GithubRepository\HomeworkWHU\dotNet\3\Prime\ClassLib\obj\Debug\ClassLib.csproj.CoreCompileInputs.cache
+F:\GithubRepository\HomeworkWHU\dotNet\3\Prime\ClassLib\obj\Debug\ClassLib.dll
+F:\GithubRepository\HomeworkWHU\dotNet\3\Prime\ClassLib\obj\Debug\ClassLib.pdb

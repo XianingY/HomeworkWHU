@@ -1,0 +1,1453 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Verify</name>
+    </assembly>
+    <members>
+        <member name="M:Polyfills.EnumPolyfill.GetValues``1">
+            <summary>
+            Retrieves an array of the values of the constants in a specified enumeration type.
+            </summary>
+            <returns>An array that contains the values of the constants in TEnum.</returns>
+        </member>
+        <member name="M:Polyfills.EnumPolyfill.IsDefined``1(``0)">
+            <summary>Returns a <see cref="T:System.Boolean"/> telling whether a given integral value exists in a specified enumeration.</summary>
+            <typeparam name="TEnum">The type of the enumeration.</typeparam>
+            <param name="value">The value in <typeparamref name="TEnum"/>.</param>
+            <returns><see langword="true"/> if a given integral value exists in a specified enumeration; <see langword="false"/>, otherwise.</returns>
+        </member>
+        <member name="M:Polyfills.EnumPolyfill.GetNames``1">
+            <summary>
+            Retrieves an array of the names of the constants in a specified enumeration type.
+            </summary>
+            <returns>A string array of the names of the constants in TEnum.</returns>
+        </member>
+        <member name="M:Polyfills.EnumPolyfill.Parse``1(System.String)">
+            <summary>
+            Converts the string representation of the name or numeric value of one or more enumerated constants specified by TEnum to an equivalent enumerated object.
+            </summary>
+        </member>
+        <member name="M:Polyfills.EnumPolyfill.Parse``1(System.String,System.Boolean)">
+            <summary>
+            Converts the string representation of the name or numeric value of one or more enumerated constants specified by TEnum to an equivalent enumerated object.
+            </summary>
+        </member>
+        <member name="M:Polyfills.EnumPolyfill.Parse``1(System.ReadOnlySpan{System.Char})">
+            <summary>
+            Converts the span of characters representation of the name or numeric value of one or more enumerated constants specified by TEnum to an equivalent enumerated object.
+            </summary>
+        </member>
+        <member name="M:Polyfills.EnumPolyfill.Parse``1(System.ReadOnlySpan{System.Char},System.Boolean)">
+            <summary>
+            Converts the span of characters representation of the name or numeric value of one or more enumerated constants specified by TEnum to an equivalent enumerated object.
+            </summary>
+        </member>
+        <member name="M:Polyfills.EnumPolyfill.TryParse``1(System.ReadOnlySpan{System.Char},``0@)">
+            <summary>
+            Converts the string representation of the name or numeric value of one or more enumerated constants to an equivalent enumerated object.
+            </summary>
+        </member>
+        <member name="M:Polyfills.EnumPolyfill.TryParse``1(System.ReadOnlySpan{System.Char},System.Boolean,``0@)">
+            <summary>
+            Converts the string representation of the name or numeric value of one or more enumerated constants to an equivalent enumerated object. A parameter specifies whether the operation is case-sensitive. The return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.GuidPolyfill.TryParse(System.String,System.IFormatProvider,System.Guid@)">
+            <summary>
+            Tries to parse a string into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.GuidPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.IFormatProvider,System.Byte@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.BytePolyfill.TryParse(System.String,System.IFormatProvider,System.Byte@)">
+            <summary>
+            Tries to parse a string into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.BytePolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.IFormatProvider,System.Byte@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.BytePolyfill.TryParse(System.ReadOnlySpan{System.Char},System.Byte@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its byte equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.BytePolyfill.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Byte@)">
+            <summary>
+            Tries to parse a span of characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.BytePolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider,System.Byte@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.BytePolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.Byte@)">
+            <summary>
+            Tries to convert a UTF-8 character span containing the string representation of a number to its byte equivalent.
+            </summary>
+        </member>
+        <member name="M:Polyfills.BytePolyfill.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Byte@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its byte equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.DoublePolyfill.TryParse(System.String,System.IFormatProvider,System.Double@)">
+            <summary>
+            Tries to parse a string into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.DoublePolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.IFormatProvider,System.Double@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.DoublePolyfill.TryParse(System.ReadOnlySpan{System.Char},System.Double@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its double-precision floating-point number equivalent. A return value indicates whether the conversion succeeded or failed.
+            </summary>
+        </member>
+        <member name="M:Polyfills.DoublePolyfill.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Double@)">
+            <summary>
+            Tries to parse a span of characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.DoublePolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider,System.Double@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.DoublePolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.Double@)">
+            <summary>
+            Tries to convert a UTF-8 character span containing the string representation of a number to its double-precision floating-point number equivalent..
+            </summary>
+        </member>
+        <member name="M:Polyfills.DoublePolyfill.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Double@)">
+            <summary>
+            Converts the string representation of a number in a specified style and culture-specific format to its double-precision floating-point number equivalent. A return value indicates whether the conversion succeeded or failed.
+            </summary>
+        </member>
+        <member name="M:Polyfills.IntPolyfill.TryParse(System.String,System.IFormatProvider,System.Int32@)">
+            <summary>
+            Tries to parse a string into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.IntPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.IFormatProvider,System.Int32@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.IntPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.Int32@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its 32-bit signed integer equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.IntPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@)">
+            <summary>
+            Tries to parse a span of characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.IntPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.IntPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.Int32@)">
+            <summary>
+            Tries to convert a UTF-8 character span containing the string representation of a number to its 32-bit signed integer equivalent.
+            </summary>
+        </member>
+        <member name="M:Polyfills.IntPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its 32-bit signed integer equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.LongPolyfill.TryParse(System.String,System.IFormatProvider,System.Int32@)">
+            <summary>
+            Tries to parse a string into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.LongPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.IFormatProvider,System.Int32@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.LongPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.Int32@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its 32-bit signed integer equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.LongPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@)">
+            <summary>
+            Tries to parse a span of characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.LongPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.LongPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.Int32@)">
+            <summary>
+            Tries to convert a UTF-8 character span containing the string representation of a number to its 64-bit signed integer equivalent.
+            </summary>
+        </member>
+        <member name="M:Polyfills.LongPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its 64-bit signed integer equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.SBytePolyfill.TryParse(System.String,System.IFormatProvider,System.SByte@)">
+            <summary>
+            Tries to parse a string into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.SBytePolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.IFormatProvider,System.SByte@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.SBytePolyfill.TryParse(System.ReadOnlySpan{System.Char},System.SByte@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its sbyte equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.SBytePolyfill.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.SByte@)">
+            <summary>
+            Tries to parse a span of characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.SBytePolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider,System.SByte@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.SBytePolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.SByte@)">
+            <summary>
+            Tries to convert a UTF-8 character span containing the string representation of a number to its sbyte equivalent.
+            </summary>
+        </member>
+        <member name="M:Polyfills.SBytePolyfill.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.SByte@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its sbyte equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.ShortPolyfill.TryParse(System.String,System.IFormatProvider,System.Int16@)">
+            <summary>
+            Tries to parse a string into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.ShortPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.IFormatProvider,System.Int16@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.ShortPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.Int16@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its short equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.ShortPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int16@)">
+            <summary>
+            Tries to parse a span of characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.ShortPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider,System.Int16@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.ShortPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.Int16@)">
+            <summary>
+            Tries to convert a UTF-8 character span containing the string representation of a number to its short equivalent.
+            </summary>
+        </member>
+        <member name="M:Polyfills.ShortPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int16@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its short equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.UIntPolyfill.TryParse(System.String,System.IFormatProvider,System.UInt32@)">
+            <summary>
+            Tries to parse a string into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.UIntPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.IFormatProvider,System.UInt32@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.UIntPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.UInt32@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its uint equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.UIntPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.UInt32@)">
+            <summary>
+            Tries to parse a span of characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.UIntPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider,System.UInt32@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.UIntPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.UInt32@)">
+            <summary>
+            Tries to convert a UTF-8 character span containing the string representation of a number to its uint equivalent.
+            </summary>
+        </member>
+        <member name="M:Polyfills.UIntPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.UInt32@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its uint equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.ULongPolyfill.TryParse(System.String,System.IFormatProvider,System.UInt64@)">
+            <summary>
+            Tries to parse a string into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.ULongPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.IFormatProvider,System.UInt64@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.ULongPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.UInt64@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its ulong equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.ULongPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.UInt64@)">
+            <summary>
+            Tries to parse a span of characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.ULongPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider,System.UInt64@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.ULongPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.UInt64@)">
+            <summary>
+            Tries to convert a UTF-8 character span containing the string representation of a number to its ulong equivalent.
+            </summary>
+        </member>
+        <member name="M:Polyfills.ULongPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.UInt64@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its ulong equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.UShortPolyfill.TryParse(System.String,System.IFormatProvider,System.UInt16@)">
+            <summary>
+            Tries to parse a string into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.UShortPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.IFormatProvider,System.UInt16@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.UShortPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.UInt16@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its ushort equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.UShortPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.UInt16@)">
+            <summary>
+            Tries to parse a span of characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.UShortPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider,System.UInt16@)">
+            <summary>
+            Tries to parse a span of UTF-8 characters into a value.
+            </summary>
+        </member>
+        <member name="M:Polyfills.UShortPolyfill.TryParse(System.ReadOnlySpan{System.Byte},System.UInt16@)">
+            <summary>
+            Tries to convert a UTF-8 character span containing the string representation of a number to its ushort equivalent.
+            </summary>
+        </member>
+        <member name="M:Polyfills.UShortPolyfill.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.UInt16@)">
+            <summary>
+            Converts the span representation of a number in a specified style and culture-specific format to its ushort equivalent. A return value indicates whether the conversion succeeded.
+            </summary>
+        </member>
+        <member name="M:Polyfills.Polyfill.Except``1(System.Collections.Generic.IEnumerable{``0},``0)">
+            <summary>
+            Produces a set items excluding <paramref name="item"/> by using the default equality comparer to compare values.
+            </summary>
+            <param name="target">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> whose elements that are not equal to <paramref name="item"/> will be returned.</param>
+            <param name="item">An <see cref="!:TSource"/> that is elements equal it will cause those elements to be removed from the returned sequence.</param>
+            <typeparam name="TSource">The type of the elements of <paramref name="target" />.</typeparam>
+            <returns>A sequence that contains the items of <paramref name="target"/> but excluding <paramref name="item"/>.</returns>
+        </member>
+        <member name="M:Polyfills.Polyfill.Except``1(System.Collections.Generic.IEnumerable{``0},``0[])">
+            <summary>
+            Produces the set difference of two sequences by using the default equality comparer to compare values.
+            </summary>
+            <param name="target">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> whose elements that are not equal to <paramref name="item"/> will be returned.</param>
+            <param name="item">An <see cref="!:TSource"/> that is elements equal it will cause those elements to be removed from the returned sequence.</param>
+            <typeparam name="TSource">The type of the elements of <paramref name="target" />.</typeparam>
+            <returns>A sequence that contains the items of <paramref name="target"/> but excluding <paramref name="item"/>.</returns>
+        </member>
+        <member name="M:Polyfills.Polyfill.Except``1(System.Collections.Generic.IEnumerable{``0},``0,System.Collections.Generic.IEqualityComparer{``0})">
+            <summary>
+            Produces a set items excluding <paramref name="item"/> by using <paramref name="comparer"/> to compare values.
+            </summary>
+            <param name="target">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> whose elements that are not equal to <paramref name="item"/> will be returned.</param>
+            <param name="item">An <see cref="!:TSource"/> that is elements equal it will cause those elements to be removed from the returned sequence.</param>
+            <param name="comparer">An <see cref="T:System.Collections.Generic.IEqualityComparer`1"/> to compare values.</param>
+            <typeparam name="TSource">The type of the elements of <paramref name="target" />.</typeparam>
+            <returns>A sequence that contains the items of <paramref name="target"/> but excluding <paramref name="item"/>.</returns>
+        </member>
+        <member name="M:Polyfills.Polyfill.Except``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0},``0[])">
+            <summary>
+            Produces the set difference of two sequences by <paramref name="comparer"/> to compare values.
+            </summary>
+            <param name="target">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> whose elements that are not equal to <paramref name="item"/> will be returned.</param>
+            <param name="item">An <see cref="!:TSource"/> that is elements equal it will cause those elements to be removed from the returned sequence.</param>
+            <typeparam name="TSource">The type of the elements of <paramref name="target" />.</typeparam>
+            <returns>A sequence that contains the items of <paramref name="target"/> but excluding <paramref name="item"/>.</returns>
+        </member>
+        <member name="M:Polyfills.Polyfill.Nanoseconds(System.TimeSpan)">
+            <summary>
+            Gets the nanosecond component of the time represented by the current <see cref="T:System.TimeSpan"/> object.
+            </summary>
+        </member>
+        <member name="M:Polyfills.Polyfill.Nanosecond(System.DateTime)">
+            <summary>
+            Gets the nanosecond component of the time represented by the current <see cref="T:System.DateTime"/> object.
+            </summary>
+        </member>
+        <member name="M:Polyfills.Polyfill.Nanosecond(System.DateTimeOffset)">
+            <summary>
+            Gets the nanosecond component of the time represented by the current <see cref="T:System.DateTimeOffset"/> object.
+            </summary>
+        </member>
+        <member name="M:Polyfills.Polyfill.Microseconds(System.TimeSpan)">
+            <summary>
+            Gets the microsecond component of the time represented by the current <see cref="T:System.TimeSpan"/> object.
+            </summary>
+        </member>
+        <member name="M:Polyfills.Polyfill.Microsecond(System.DateTime)">
+            <summary>
+            Gets the microsecond component of the time represented by the current <see cref="T:System.DateTime"/> object.
+            </summary>
+        </member>
+        <member name="M:Polyfills.Polyfill.Microsecond(System.DateTimeOffset)">
+            <summary>
+            Gets the microsecond component of the time represented by the current <see cref="T:System.DateTimeOffset"/> object.
+            </summary>
+        </member>
+        <member name="M:Polyfills.Polyfill.Append(System.Text.StringBuilder,System.Text.StringBuilder.AppendInterpolatedStringHandler@)">
+            <summary>Appends the specified interpolated string to this instance.</summary>
+            <param name="handler">The interpolated string to append.</param>
+            <returns>A reference to this instance after the append operation has completed.</returns>
+        </member>
+        <member name="M:Polyfills.Polyfill.Append(System.Text.StringBuilder,System.IFormatProvider,System.Text.StringBuilder.AppendInterpolatedStringHandler@)">
+            <summary>Appends the specified interpolated string to this instance.</summary>
+            <param name="provider">An object that supplies culture-specific formatting information.</param>
+            <param name="handler">The interpolated string to append.</param>
+            <returns>A reference to this instance after the append operation has completed.</returns>
+        </member>
+        <member name="M:Polyfills.Polyfill.AppendLine(System.Text.StringBuilder,System.Text.StringBuilder.AppendInterpolatedStringHandler@)">
+            <summary>Appends the specified interpolated string followed by the default line terminator to the end of the current StringBuilder object.</summary>
+            <param name="handler">The interpolated string to append.</param>
+            <returns>A reference to this instance after the append operation has completed.</returns>
+        </member>
+        <member name="M:Polyfills.Polyfill.AppendLine(System.Text.StringBuilder,System.IFormatProvider,System.Text.StringBuilder.AppendInterpolatedStringHandler@)">
+            <summary>Appends the specified interpolated string followed by the default line terminator to the end of the current StringBuilder object.</summary>
+            <param name="provider">An object that supplies culture-specific formatting information.</param>
+            <param name="handler">The interpolated string to append.</param>
+            <returns>A reference to this instance after the append operation has completed.</returns>
+        </member>
+        <member name="M:Polyfills.Polyfill.IsGenericMethodParameter(System.Type)">
+            <summary>
+            Gets a value that indicates whether the current Type represents a type parameter in the definition of a generic method.
+            </summary>
+        </member>
+        <member name="M:Polyfills.Polyfill.IsAssignableTo``1(System.Type)">
+            <summary>
+            Generic version of Type.IsAssignableTo https://learn.microsoft.com/en-us/dotnet/api/system.type.isassignableto.
+            </summary>
+        </member>
+        <member name="M:Polyfills.Polyfill.IsAssignableFrom``1(System.Type)">
+            <summary>
+            Generic version of Type.IsAssignableFrom https://learn.microsoft.com/en-us/dotnet/api/system.type.isassignablefrom.
+            </summary>
+        </member>
+        <member name="M:Polyfills.RegexPolyfill.IsMatch(System.ReadOnlySpan{System.Char},System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)">
+            <summary>
+            Indicates whether the specified regular expression finds a match in the specified input span, using the specified matching options and time-out interval.
+            </summary>
+            <returns>true if the regular expression finds a match; otherwise, false.</returns>
+        </member>
+        <member name="M:Polyfills.RegexPolyfill.IsMatch(System.ReadOnlySpan{System.Char},System.String,System.Text.RegularExpressions.RegexOptions)">
+            <summary>
+            Indicates whether the specified regular expression finds a match in the specified input span, using the specified matching options.
+            </summary>
+            <returns>true if the regular expression finds a match; otherwise, false.</returns>
+        </member>
+        <member name="M:Polyfills.RegexPolyfill.IsMatch(System.ReadOnlySpan{System.Char},System.String)">
+            <summary>
+            Indicates whether the specified regular expression finds a match in the specified input span.
+            </summary>
+            <returns>true if the regular expression finds a match; otherwise, false.</returns>
+        </member>
+        <member name="M:Polyfills.RegexPolyfill.EnumerateMatches(System.ReadOnlySpan{System.Char},System.String)">
+            <summary>
+            Searches an input span for all occurrences of a regular expression and returns a Regex.ValueMatchEnumerator to iterate over the matches.
+            </summary>
+            <returns>A Regex.ValueMatchEnumerator to iterate over the matches.</returns>
+        </member>
+        <member name="M:Polyfills.RegexPolyfill.EnumerateMatches(System.ReadOnlySpan{System.Char},System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)">
+            <summary>
+            Searches an input span for all occurrences of a regular expression and returns a Regex.ValueMatchEnumerator to iterate over the matches.
+            </summary>
+            <returns>A Regex.ValueMatchEnumerator to iterate over the matches.</returns>
+        </member>
+        <member name="M:Polyfills.RegexPolyfill.EnumerateMatches(System.ReadOnlySpan{System.Char},System.String,System.Text.RegularExpressions.RegexOptions)">
+            <summary>
+            Searches an input span for all occurrences of a regular expression and returns a Regex.ValueMatchEnumerator to iterate over the matches.
+            </summary>
+            <returns>A Regex.ValueMatchEnumerator to iterate over the matches.</returns>
+        </member>
+        <member name="M:Polyfills.StringPolyfill.Join(System.Char,System.String[])">
+            <summary>
+            Concatenates an array of strings, using the specified separator between each member.
+            </summary>
+        </member>
+        <member name="M:Polyfills.StringPolyfill.Join(System.Char,System.Object[])">
+            <summary>
+            Concatenates the string representations of an array of objects, using the specified separator between each member.
+            </summary>
+        </member>
+        <member name="M:Polyfills.StringPolyfill.Join(System.Char,System.String[],System.Int32,System.Int32)">
+            <summary>
+            Concatenates the specified elements of a string array, using the specified separator between each element.
+            </summary>
+        </member>
+        <member name="M:Polyfills.StringPolyfill.Join``1(System.Char,System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Concatenates the specified elements of a string array, using the specified separator between each element.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.UniqueForRuntime">
+            <summary>
+            Use the current runtime to make the test results unique.
+            Used when a test produces different results based on runtime.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.UseSplitModeForUniqueDirectory">
+            <summary>
+            Use the current runtime to make the test results unique.
+            Used when a test produces different results based on runtime.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.UniqueForTargetFramework">
+            <summary>
+            Use the current test assembly TargetFrameworkAttribute to make the test results unique.
+            Used when a test produces different results based on TargetFramework.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.UniqueForTargetFrameworkAndVersion">
+            <summary>
+            Use the current test assembly TargetFrameworkAttribute name and version to make the test results unique.
+            Used when a test produces different results based on TargetFramework and TargetFramework version.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.UniqueForAssemblyConfiguration">
+            <summary>
+            Use the current test assembly configuration (debug/release) to make the test results unique.
+            Used when a test produces different results based on assembly configuration.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.UniqueForTargetFramework(System.Reflection.Assembly)">
+            <summary>
+            Use <paramref name="assembly" /> TargetFrameworkAttribute to make the test results unique.
+            Used when a test produces different results based on TargetFramework.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.UniqueForTargetFrameworkAndVersion(System.Reflection.Assembly)">
+            <summary>
+            Use the <paramref name="assembly" /> TargetFrameworkAttribute name and version to make the test results unique.
+            Used when a test produces different results based on TargetFramework and TargetFramework version.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.UniqueForAssemblyConfiguration(System.Reflection.Assembly)">
+            <summary>
+            Use the <paramref name="assembly" /> configuration (debug/release) to make the test results unique.
+            Used when a test produces different results based on assembly configuration.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.UniqueForRuntimeAndVersion">
+            <summary>
+            Use the current runtime and runtime version to make the test results unique.
+            Used when a test produces different results based on runtime and runtime version.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.UniqueForArchitecture">
+            <summary>
+            Use the current processor architecture (x86/x64/arm/arm64) to make the test results unique.
+            Used when a test produces different results based on processor architecture.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.UniqueForOSPlatform">
+            <summary>
+            Use the operating system family (Linux/Windows/OSX) to make the test results unique.
+            Used when a test produces different results based on operating system family.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.DisableRequireUniquePrefix">
+            <summary>
+            Allow multiple tests to map to the same snapshot file prefix.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.AddScrubber(System.String,System.Action{System.Text.StringBuilder},VerifyTests.ScrubberLocation)">
+            <summary>
+            Modify the resulting test content using custom code.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.AddScrubber(System.String,System.Action{System.Text.StringBuilder,VerifyTests.Counter},VerifyTests.ScrubberLocation)">
+            <summary>
+            Modify the resulting test content using custom code.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubLinesContaining(System.String,System.StringComparison,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubLinesContaining(System.String,System.StringComparison,VerifyTests.ScrubberLocation,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubLines(System.String,System.Func{System.String,System.Boolean},VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove any lines matching <paramref name="removeLine" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubEmptyLines(System.String,VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove any lines containing only whitespace from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubInlineGuids(System.String,VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.Guid" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubLinesWithReplace(System.String,System.Func{System.String,System.String},VerifyTests.ScrubberLocation)">
+            <summary>
+            Scrub lines with an optional replace.
+            <paramref name="replaceLine" /> can return the input to ignore the line, or return a different string to replace it.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubLinesContaining(System.String,VerifyTests.ScrubberLocation,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubMachineName(System.String,VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove the <see cref="P:System.Environment.MachineName" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubUserName(System.String,VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove the <see cref="P:System.Environment.UserName" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.AddScrubber(System.Action{System.Text.StringBuilder},VerifyTests.ScrubberLocation)">
+            <summary>
+            Modify the resulting test content using custom code.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.AddScrubber(System.Action{System.Text.StringBuilder,VerifyTests.Counter},VerifyTests.ScrubberLocation)">
+            <summary>
+            Modify the resulting test content using custom code.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubLinesContaining(System.StringComparison,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubLinesContaining(System.StringComparison,VerifyTests.ScrubberLocation,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubLines(System.Func{System.String,System.Boolean},VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove any lines matching <paramref name="removeLine" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubEmptyLines(VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove any lines containing only whitespace from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.DisableDateCounting">
+            <summary>
+            Disables counting of dates.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubInlineDateTimes(System.String,System.Globalization.CultureInfo,VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.DateTime" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubInlineDateTimeOffsets(System.String,System.Globalization.CultureInfo,VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.DateTime" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubInlineDates(System.String,System.Globalization.CultureInfo,VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.DateOnly" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubInlineGuids(VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.Guid" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubLinesWithReplace(System.Func{System.String,System.String},VerifyTests.ScrubberLocation)">
+            <summary>
+            Scrub lines with an optional replace.
+            <paramref name="replaceLine" /> can return the input to ignore the line, or return a different string to replace it.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubLinesContaining(System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubLinesContaining(VerifyTests.ScrubberLocation,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubMachineName(VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove the <see cref="P:System.Environment.MachineName" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.ScrubUserName(VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove the <see cref="P:System.Environment.UserName" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.AutoVerify(System.Boolean)">
+            <summary>
+            Automatically accept the results of all tests.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifierSettings.AutoVerify(VerifyTests.GlobalAutoVerify,System.Boolean)">
+            <summary>
+            Automatically accept the results of all tests.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.DisableDiff">
+            <summary>
+            Disable using a diff tool for this test
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UseParameters``1(``0[])">
+            <inheritdoc cref="M:VerifyTests.VerifySettings.UseParameters(System.Object[])"/>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UseParameters``1(``0)">
+            <inheritdoc cref="M:VerifyTests.VerifySettings.UseParameters(System.Object[])"/>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UseParameters(System.Object[])">
+             <summary>
+             Define the parameter values being used by a parameterised (aka data driven) test.
+            
+             Scenarios:
+            
+             <list type="bullet">
+               <item>Verify.Expecto: Does not currently support `UseParameters()`.</item>
+               <item>Verify.Fixie: Automatically detects the method parameters via a custom ITestProject https://github.com/VerifyTests/Verify/blob/main/docs/parameterised.md#fixie.</item>
+               <item>Verify.MSTest: Does not detect the parametrised arguments, as such `UseParameters()` is required.</item>
+               <item>Verify.NUnit: Automatically detects the method parameters. So `UseParameters()` is not required unless using custom parameters.</item>
+               <item>Verify.TUnit: Automatically detects the method parameters. So `UseParameters()` is not required unless using custom parameters.</item>
+               <item>Verify.Xunit: Does not detect the parametrised arguments, as such `UseParameters()` is required.</item>
+               <item>Verify.XunitV3: Automatically detects the method parameters for built in types (string, int, bool etc), but for complex types `UseParameters()` is required.</item>
+             </list>
+            
+             In the scenarios where parameters are not automatically detected, an exception will be thrown instructing the potential need for <see cref="M:VerifyTests.VerifySettings.UseParameters(System.Object[])" />
+             Not compatible with <see cref="M:VerifyTests.VerifySettings.UseTextForParameters(System.String)" />.
+             </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.IgnoreParameters(System.String[])">
+            <summary>
+            Ignore parameters in 'verified' filename resulting in the same verified file for multiple testcases.
+            Note that UseParameters has still been called for test frameworks that don't support automatic parameter detection and the 'received' files still contains the parameters.
+            </summary>
+            <param name="parameterNames">The names of the parameters to be ignored. When passing an empty list all parameters will be ignored.</param>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.IgnoreParametersForVerified(System.Object[])">
+            <summary>
+            Ignore all parameters in 'verified' filename resulting in the same verified file for each testcase.
+            Note that the 'received' files still contain the parameters.
+            </summary>
+            <param name="parameters">The parameters as you would have passed them to the UseParameters function.</param>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.HashParameters">
+            <summary>
+            Hash parameters together and pass to <see cref="M:VerifyTests.VerifySettings.UseTextForParameters(System.String)" />.
+            Used to get a deterministic file name while avoiding long paths.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UseHashedParameters(System.Object[])">
+            <summary>
+            Provide parameters to hash together and pass to <see cref="M:VerifyTests.VerifySettings.UseTextForParameters(System.String)" />.
+            Used to get a deterministic file name while avoiding long paths.
+            Combines <see cref="M:VerifyTests.VerifySettings.UseParameters(System.Object[])" /> and <see cref="M:VerifyTests.VerifySettings.HashParameters" />.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UniqueForRuntime">
+            <summary>
+            Use the current runtime to make the test results unique.
+            Used when a test produces different results based on runtime.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UniqueForTargetFramework">
+            <summary>
+            Use the current test assembly TargetFrameworkAttribute to make the test results unique.
+            Used when a test produces different results based on TargetFramework.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UniqueForTargetFrameworkAndVersion">
+            <summary>
+            Use the current test assembly TargetFrameworkAttribute name and version to make the test results unique.
+            Used when a test produces different results based on TargetFramework and TargetFramework version.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UniqueForAssemblyConfiguration">
+            <summary>
+            Use the current test assembly configuration (debug/release) to make the test results unique.
+            Used when a test produces different results based on assembly configuration.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UniqueForTargetFramework(System.Reflection.Assembly)">
+            <summary>
+            Use <paramref name="assembly" /> TargetFrameworkAttribute to make the test results unique.
+            Used when a test produces different results based on TargetFramework.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UniqueForTargetFrameworkAndVersion(System.Reflection.Assembly)">
+            <summary>
+            Use the <paramref name="assembly" /> TargetFrameworkAttribute name and version to make the test results unique.
+            Used when a test produces different results based on TargetFramework and TargetFramework version.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UniqueForAssemblyConfiguration(System.Reflection.Assembly)">
+            <summary>
+            Use the <paramref name="assembly" /> configuration (debug/release) to make the test results unique.
+            Used when a test produces different results based on assembly configuration.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UseDirectory(System.String)">
+            <summary>
+            Use a custom directory for the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UseTypeName(System.String)">
+            <summary>
+            Use a custom class name for the test results.
+            Where the file format is `{CurrentDirectory}/{TestClassName}.{TestMethodName}_{Parameters}_{UniqueFor1}_{UniqueFor2}_{UniqueForX}.verified.{extension}`.
+            </summary>
+            <remarks>Not compatible with <see cref="M:VerifyTests.VerifySettings.UseFileName(System.String)" />.</remarks>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UseMethodName(System.String)">
+            <summary>
+            Use a custom method name for the test results.
+            Where the file format is `{CurrentDirectory}/{TestClassName}.{TestMethodName}_{Parameters}_{UniqueFor1}_{UniqueFor2}_{UniqueForX}.verified.{extension}`.
+            </summary>
+            <remarks>Not compatible with <see cref="M:VerifyTests.VerifySettings.UseFileName(System.String)" />.</remarks>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UseFileName(System.String)">
+            <summary>
+            Use a file name for the test results.
+            Overrides the `{TestClassName}.{TestMethodName}_{Parameters}` parts of the file naming.
+            Where the new file format is `{CurrentDirectory}/{FileName}_{UniqueFor1}_{UniqueFor2}_{UniqueForX}.verified.{extension}`.
+            </summary>
+            <remarks>Not compatible with <see cref="M:VerifyTests.VerifySettings.UseTypeName(System.String)" />, <see cref="M:VerifyTests.VerifySettings.UseMethodName(System.String)" />, or <see cref="M:VerifyTests.VerifySettings.UseParameters(System.Object[])" />.</remarks>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UseUniqueDirectory">
+            <summary>
+            Use a directory for the test results.
+            Where the file format is `{CurrentDirectory}/{TestClassName}.{TestMethodName}_{Parameters}_{UniqueFor1}_{UniqueFor2}_{UniqueForX}/{targetName}.verified.{extension}`.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UniqueForRuntimeAndVersion">
+            <summary>
+            Use the current runtime and runtime version to make the test results unique.
+            Used when a test produces different results based on runtime and runtime version.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UniqueForArchitecture">
+            <summary>
+            Use the current processor architecture (x86/x64/arm/arm64) to make the test results unique.
+            Used when a test produces different results based on processor architecture.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UniqueForOSPlatform">
+            <summary>
+            Use the operating system family (Linux/Windows/OSX) to make the test results unique.
+            Used when a test produces different results based on operating system family.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.DisableRequireUniquePrefix">
+            <summary>
+            Allow multiple tests to map to the same snapshot file prefix.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UseSplitModeForUniqueDirectory">
+            <summary>
+            Use the current runtime to make the test results unique.
+            Used when a test produces different results based on runtime.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.DontUseSplitModeForUniqueDirectory">
+            <summary>
+            Dont use the current runtime to make the test results unique.
+            Overrides <see cref="M:VerifyTests.VerifierSettings.UseSplitModeForUniqueDirectory" />.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.AddScrubber(System.String,System.Action{System.Text.StringBuilder},VerifyTests.ScrubberLocation)">
+            <summary>
+            Modify the resulting test content using custom code.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.AddScrubber(System.String,System.Action{System.Text.StringBuilder,VerifyTests.Counter},VerifyTests.ScrubberLocation)">
+            <summary>
+            Modify the resulting test content using custom code.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubMachineName(System.String,VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove the <see cref="P:System.Environment.MachineName" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubUserName(System.String,VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove the <see cref="P:System.Environment.UserName" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubLinesContaining(System.String,System.StringComparison,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubLinesContaining(System.String,System.StringComparison,VerifyTests.ScrubberLocation,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubInlineGuids(System.String,VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.Guid" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubLines(System.String,System.Func{System.String,System.Boolean},VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove any lines matching <paramref name="removeLine" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubLinesWithReplace(System.String,System.Func{System.String,System.String},VerifyTests.ScrubberLocation)">
+            <summary>
+            Scrub lines with an optional replace.
+            <paramref name="replaceLine" /> can return the input to ignore the line, or return a different string to replace it.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubEmptyLines(System.String,VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove any lines containing only whitespace from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubLinesContaining(System.String,VerifyTests.ScrubberLocation,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubMachineName(VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove the <see cref="P:System.Environment.MachineName" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubUserName(VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove the <see cref="P:System.Environment.UserName" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.AddScrubber(System.Action{System.Text.StringBuilder},VerifyTests.ScrubberLocation)">
+            <summary>
+            Modify the resulting test content using custom code.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.AddScrubber(System.Action{System.Text.StringBuilder,VerifyTests.Counter},VerifyTests.ScrubberLocation)">
+            <summary>
+            Modify the resulting test content using custom code.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubLinesContaining(System.StringComparison,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubLinesContaining(System.StringComparison,VerifyTests.ScrubberLocation,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubInlineGuids(VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.Guid" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubInlineDateTimes(System.String,System.Globalization.CultureInfo,VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.DateTime" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubInlineDateTimeOffsets(System.String,System.Globalization.CultureInfo,VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.DateTime" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubInlineDates(System.String,System.Globalization.CultureInfo,VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.DateOnly" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubLines(System.Func{System.String,System.Boolean},VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove any lines matching <paramref name="removeLine" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubLinesWithReplace(System.Func{System.String,System.String},VerifyTests.ScrubberLocation)">
+            <summary>
+            Scrub lines with an optional replace.
+            <paramref name="replaceLine" /> can return the input to ignore the line, or return a different string to replace it.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubEmptyLines(VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove any lines containing only whitespace from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubLinesContaining(System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.ScrubLinesContaining(VerifyTests.ScrubberLocation,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.AppendValue(System.String,System.Object)">
+            <summary>
+            Append a key-value pair to the serialized target.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.AppendValues(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}})">
+            <summary>
+            Append key-value pairs to the serialized target.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.AppendValues(System.Collections.Generic.KeyValuePair{System.String,System.Object}[])">
+            <summary>
+            Append key-value pairs to the serialized target.
+            </summary>
+        </member>
+        <member name="P:VerifyTests.VerifySettings.Context">
+            <summary>
+            Allows extensions to Verify to pass config via <see cref="T:VerifyTests.VerifySettings" />.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.UseTextForParameters(System.String)">
+            <summary>
+            Use a custom text for the `Parameters` part of the file name.
+            Not compatible with <see cref="M:VerifyTests.VerifySettings.UseParameters(System.Object[])" />.
+            Where the file format is `{CurrentDirectory}/{TestClassName}.{TestMethodName}_{Parameters}_{UniqueFor1}_{UniqueFor2}_{UniqueForX}.verified.{extension}`.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.AutoVerify(System.Boolean)">
+            <summary>
+            Automatically accept the results of the current test.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifySettings.AutoVerify(VerifyTests.AutoVerify,System.Boolean)">
+            <summary>
+            Automatically accept the results of the current test.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.AppendValue(System.String,System.Object)">
+            <summary>
+            Append a key-value pair to the serialized target.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.AppendValues(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Object}})">
+            <summary>
+            Append key-value pairs to the serialized target.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.AppendValues(System.Collections.Generic.KeyValuePair{System.String,System.Object}[])">
+            <summary>
+            Append key-value pairs to the serialized target.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.IgnoreParameters(System.String[])">
+            <summary>
+            Ignore parameters in 'verified' filename resulting in the same verified file for multiple testcases.
+            Note that UseParameters has still been called for test frameworks that don't support automatic parameter detection and the 'received' files still contains the parameters.
+            </summary>
+            <param name="parameterNames">The names of the parameters to be ignored. When passing an empty list all parameters will be ignored.</param>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.IgnoreParametersForVerified(System.Object[])">
+            <summary>
+            Ignore all parameters in 'verified' filename resulting in the same verified file for each testcase.
+            Note that the 'received' files still contain the parameters.
+            </summary>
+            <param name="parameters">The parameters as you would have passed them to the UseParameters function.</param>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UseParameters(System.Object[])">
+            <inheritdoc cref="M:VerifyTests.VerifySettings.UseParameters(System.Object[])"/>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UseParameters``1(``0)">
+            <inheritdoc cref="M:VerifyTests.VerifySettings.UseParameters(System.Object[])"/>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UseParameters``1(``0[])">
+            <inheritdoc cref="M:VerifyTests.VerifySettings.UseParameters(System.Object[])"/>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.DisableDiff">
+            <summary>
+            Disable using a diff toll for this test
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UniqueForRuntime">
+            <summary>
+            Use the current runtime to make the test results unique.
+            Used when a test produces different results based on runtime.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UniqueForTargetFramework">
+            <summary>
+            Use the current test assembly TargetFrameworkAttribute to make the test results unique.
+            Used when a test produces different results based on TargetFramework.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UniqueForTargetFrameworkAndVersion">
+            <summary>
+            Use the current test assembly TargetFrameworkAttribute name and version to make the test results unique.
+            Used when a test produces different results based on TargetFramework and TargetFramework version.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UniqueForAssemblyConfiguration">
+            <summary>
+            Use the current test assembly configuration (debug/release) to make the test results unique.
+            Used when a test produces different results based on assembly configuration.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UniqueForTargetFramework(System.Reflection.Assembly)">
+            <summary>
+            Use <paramref name="assembly" /> TargetFrameworkAttribute to make the test results unique.
+            Used when a test produces different results based on TargetFramework.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UniqueForTargetFrameworkAndVersion(System.Reflection.Assembly)">
+            <summary>
+            Use the <paramref name="assembly" /> TargetFrameworkAttribute name and version to make the test results unique.
+            Used when a test produces different results based on TargetFramework and TargetFramework version.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UniqueForAssemblyConfiguration(System.Reflection.Assembly)">
+            <summary>
+            Use the <paramref name="assembly" /> configuration (debug/release) to make the test results unique.
+            Used when a test produces different results based on assembly configuration.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.DisableRequireUniquePrefix">
+            <summary>
+            Allow multiple tests to map to the same snapshot file prefix.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UseMethodName(System.String)">
+            <summary>
+            Use a custom method name for the test results.
+            Where the file format is `{CurrentDirectory}/{TestClassName}.{TestMethodName}_{Parameters}.{UniqueFor1}.{UniqueFor2}.{UniqueForX}.verified.{extension}`.
+            </summary>
+            <remarks>Not compatible with <see cref="M:VerifyTests.SettingsTask.UseFileName(System.String)" />.</remarks>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UseDirectory(System.String)">
+            <summary>
+            Use a custom directory for the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UseFileName(System.String)">
+            <summary>
+            Use a file name for the test results.
+            Overrides the `{TestClassName}.{TestMethodName}_{Parameters}` parts of the file naming.
+            Where the new file format is `{CurrentDirectory}/{FileName}_{UniqueFor1}_{UniqueFor2}_{UniqueForX}.verified.{extension}`.
+            </summary>
+            <remarks>Not compatible with <see cref="M:VerifyTests.SettingsTask.UseTypeName(System.String)" />, <see cref="M:VerifyTests.SettingsTask.UseMethodName(System.String)" />, or <see cref="M:VerifyTests.SettingsTask.UseParameters(System.Object[])" />.</remarks>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UseUniqueDirectory">
+            <summary>
+            Use a directory for the test results.
+            Where the file format is `{CurrentDirectory}/{TestClassName}.{TestMethodName}_{Parameters}_{UniqueFor1}_{UniqueFor2}_{UniqueForX}/{targetName}.verified.{extension}`.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UseTypeName(System.String)">
+            <summary>
+            Use a custom class name for the CurrentDirectory results.
+            Where the file format is `{CurrentDirectory}/{TestClassName}.{TestMethodName}_{Parameters}.{UniqueFor1}.{UniqueFor2}.{UniqueForX}.verified.{extension}`.
+            </summary>
+            <remarks>Not compatible with <see cref="M:VerifyTests.SettingsTask.UseFileName(System.String)" />.</remarks>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UniqueForRuntimeAndVersion">
+            <summary>
+            Use the current runtime and runtime version to make the test results unique.
+            Used when a test produces different results based on runtime and runtime version.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UseHashedParameters(System.Object[])">
+            <summary>
+            Provide parameters to hash together and pass to <see cref="M:VerifyTests.SettingsTask.UseTextForParameters(System.String)" />.
+            Used to get a deterministic file name while avoiding long paths.
+            Combines <see cref="M:VerifyTests.SettingsTask.UseParameters(System.Object[])" /> and <see cref="M:VerifyTests.SettingsTask.HashParameters" />.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.HashParameters">
+            <summary>
+            Hash parameters together and pass to <see cref="M:VerifyTests.SettingsTask.UseTextForParameters(System.String)" />.
+            Used to get a deterministic file name while avoiding long paths.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UniqueForArchitecture">
+            <summary>
+            Use the current processor architecture (x86/x64/arm/arm64) to make the test results unique.
+            Used when a test produces different results based on processor architecture.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UniqueForOSPlatform">
+            <summary>
+            Use the operating system family (Linux/Windows/OSX) to make the test results unique.
+            Used when a test produces different results based on operating system family.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.AutoVerify(System.Boolean)">
+            <summary>
+            Automatically accept the results of the current test.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.AutoVerify(VerifyTests.AutoVerify,System.Boolean)">
+            <summary>
+            Automatically accept the results of the current test.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UseTextForParameters(System.String)">
+            <summary>
+            Use a custom text for the `Parameters` part of the file name.
+            Not compatible with <see cref="M:VerifyTests.SettingsTask.UseParameters(System.Object[])" />.
+            Where the file format is `{CurrentDirectory}/{TestClassName}.{TestMethodName}_{Parameters}_{UniqueFor1}_{UniqueFor2}_{UniqueForX}.verified.{extension}`.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.UseSplitModeForUniqueDirectory">
+            <summary>
+            Use the current runtime to make the test results unique.
+            Used when a test produces different results based on runtime.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.DontUseSplitModeForUniqueDirectory">
+            <summary>
+            Dont use the current runtime to make the test results unique.
+            Overrides <see cref="M:VerifyTests.VerifierSettings.UseSplitModeForUniqueDirectory" />.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.AddScrubber(System.Action{System.Text.StringBuilder},VerifyTests.ScrubberLocation)">
+            <summary>
+            Modify the resulting test content using custom code.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.AddScrubber(System.String,System.Action{System.Text.StringBuilder},VerifyTests.ScrubberLocation)">
+            <summary>
+            Modify the resulting test content using custom code.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubInlineGuids(VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.Guid" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubInlineGuids(System.String,VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.Guid" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.DisableDateCounting">
+            <summary>
+            Disables counting of dates.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubInlineDateTimes(System.String,System.Globalization.CultureInfo,VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.DateTime" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubInlineDateTimeOffsets(System.String,System.Globalization.CultureInfo,VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.DateTime" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubInlineDates(System.String,System.Globalization.CultureInfo,VerifyTests.ScrubberLocation)">
+            <summary>
+            Replace inline <see cref="T:System.DateOnly" />s with a placeholder.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubMachineName(VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove the <see cref="P:System.Environment.MachineName" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubMachineName(System.String,VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove the <see cref="P:System.Environment.MachineName" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubUserName(VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove the <see cref="P:System.Environment.UserName" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubUserName(System.String,VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove the <see cref="P:System.Environment.UserName" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubLinesContaining(System.StringComparison,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubLinesContaining(System.String,System.StringComparison,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubLinesContaining(System.StringComparison,VerifyTests.ScrubberLocation,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubLinesContaining(System.String,System.StringComparison,VerifyTests.ScrubberLocation,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubLines(System.Func{System.String,System.Boolean},VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove any lines matching <paramref name="removeLine" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubLines(System.String,System.Func{System.String,System.Boolean},VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove any lines matching <paramref name="removeLine" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubLinesWithReplace(System.Func{System.String,System.String},VerifyTests.ScrubberLocation)">
+            <summary>
+            Scrub lines with an optional replace.
+            <paramref name="replaceLine" /> can return the input to ignore the line, or return a different string to replace it.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubLinesWithReplace(System.String,System.Func{System.String,System.String},VerifyTests.ScrubberLocation)">
+            <summary>
+            Scrub lines with an optional replace.
+            <paramref name="replaceLine" /> can return the input to ignore the line, or return a different string to replace it.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubEmptyLines(VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove any lines containing only whitespace from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubEmptyLines(System.String,VerifyTests.ScrubberLocation)">
+            <summary>
+            Remove any lines containing only whitespace from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubLinesContaining(System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubLinesContaining(VerifyTests.ScrubberLocation,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.SettingsTask.ScrubLinesContaining(System.String,VerifyTests.ScrubberLocation,System.String[])">
+            <summary>
+            Remove any lines containing any of <paramref name="stringToMatch" /> from the test results.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifyJsonWriter.WriteMember``1(System.Object,``0,System.String,``0)">
+            <summary>
+            Writes a property name and value while respecting other custom serialization settings.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifyJsonWriter.WriteMember(System.Object,System.Object,System.String)">
+            <summary>
+            Writes a property name and value while respecting other custom serialization settings.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.VerifyJsonWriter.Serialize(System.Object)">
+            <summary>
+            Convenience method that calls <see cref="P:VerifyTests.VerifyJsonWriter.Serializer" />.<see cref="M:Argon.JsonSerializer.Serialize(System.IO.TextWriter,System.Object)" /> passing in the writer instance and <paramref name="value" />
+            </summary>
+        </member>
+        <member name="M:VerifyTests.StringBuilderExtensions.AppendLineN(System.Text.StringBuilder)">
+            <summary>
+            Appends a line with a `\n` as the newline character.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.StringBuilderExtensions.AppendLineN(System.Text.StringBuilder,System.String)">
+            <summary>
+            Appends a line with a `\n` as the newline character.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.StringBuilderExtensions.AppendLineN(System.Text.StringBuilder,System.ReadOnlySpan{System.Char})">
+            <summary>
+            Appends a line with a `\n` as the newline character.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.StringBuilderExtensions.AppendLineN(System.Text.StringBuilder,System.Text.StringBuilder)">
+            <summary>
+            Appends a line with a `\n` as the newline character.
+            </summary>
+        </member>
+        <member name="M:VerifyTests.InnerVerifier.#ctor(System.String,VerifyTests.VerifySettings)">
+            <summary>
+            Initialize a new instance of the <see cref="T:VerifyTests.InnerVerifier" /> class for verifying the entire file (not just a specific type)
+            </summary>
+            <remarks>This constructor is used by 3rd party clients</remarks>
+        </member>
+        <member name="M:IoHelpers.ResolveDirectoryFromSourceFile(System.String)">
+            <summary>
+            Resolve directory path from a given source file path, this method will remap the path if the .dll was built on a
+            system (e.g. Windows) and the tests are run on another one (e.g. Linux though WSL or docker)
+            </summary>
+        </member>
+    </members>
+</doc>

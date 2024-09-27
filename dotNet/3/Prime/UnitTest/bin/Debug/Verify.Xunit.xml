@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Verify.Xunit</name>
+    </assembly>
+    <members>
+        <member name="T:VerifyXunit.DerivePathInfo">
+            <summary>
+            Signature for deriving a custom path information for `.verified.` files.
+            </summary>
+            <param name="sourceFile">The source file derived from <see cref="T:System.Runtime.CompilerServices.CallerFilePathAttribute" />.</param>
+            <param name="projectDirectory">The directory of the project that the test was compile from.</param>
+            <param name="type">The class the test method exists in.</param>
+            <param name="method">The test method.</param>
+        </member>
+        <member name="M:VerifyXunit.Verifier.DerivePathInfo(VerifyXunit.DerivePathInfo)">
+            <summary>
+            Use custom path information for `.verified.` files.
+            </summary>
+            <remarks>
+            This is sometimes needed on CI systems that move/remove the original source.
+            To move to this approach, any existing `.verified.` files will need to be moved to the new directory
+            </remarks>
+            <param name="derivePathInfo">Custom callback to control the behavior.</param>
+        </member>
+        <member name="M:VerifyXunit.Verifier.UseProjectRelativeDirectory(System.String)">
+            <summary>
+            Use a directory relative to the project directory for storing for `.verified.` files.
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.Verifier.UseSourceFileRelativeDirectory(System.String)">
+            <summary>
+            Use a directory relative to the source file directory for storing for `.verified.` files.
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.Verifier.Verify(System.IO.Compression.ZipArchive,System.Func{System.IO.Compression.ZipArchiveEntry,System.Boolean},VerifyTests.VerifySettings,System.Object,VerifyTests.FileScrubber,System.String)">
+            <summary>
+            Verifies the contents of a <see cref="T:System.IO.Compression.ZipArchive" />
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.Verifier.VerifyZip(System.String,System.Func{System.IO.Compression.ZipArchiveEntry,System.Boolean},VerifyTests.VerifySettings,System.Object,VerifyTests.FileScrubber,System.String)">
+            <summary>
+            Verifies the contents of a <see cref="T:System.IO.Compression.ZipArchive" />
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.Verifier.VerifyZip(System.IO.Stream,System.Func{System.IO.Compression.ZipArchiveEntry,System.Boolean},VerifyTests.VerifySettings,System.Object,VerifyTests.FileScrubber,System.String)">
+            <summary>
+            Verifies the contents of a <see cref="T:System.IO.Compression.ZipArchive" />
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.Verifier.VerifyDirectory(System.String,System.Func{System.String,System.Boolean},System.String,System.IO.SearchOption,VerifyTests.VerifySettings,System.Object,VerifyTests.FileScrubber,System.String)">
+            <summary>
+            Verifies the contents of <paramref name="path"/>.
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.Verifier.VerifyDirectory(System.IO.DirectoryInfo,System.Func{System.String,System.Boolean},System.String,System.IO.SearchOption,VerifyTests.VerifySettings,System.Object,VerifyTests.FileScrubber,System.String)">
+            <summary>
+            Verifies the contents of <paramref name="path"/>.
+            Differs from passing <see cref="T:System.IO.DirectoryInfo"/> to <code>Verify(object? target)</code> which will verify the full path.
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.Verifier.VerifyFile(System.String,VerifyTests.VerifySettings,System.Object,System.String,System.String)">
+            <summary>
+            Verifies the contents of <paramref name="path" />.
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.Verifier.VerifyFile(System.IO.FileInfo,VerifyTests.VerifySettings,System.Object,System.String,System.String)">
+            <summary>
+            Verifies the contents of <paramref name="path" />.
+            Differs from passing <see cref="T:System.IO.FileInfo" /> to <code>Verify(object? target)</code> which will verify the full path.
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.VerifyBase.Verify(System.IO.Compression.ZipArchive,System.Func{System.IO.Compression.ZipArchiveEntry,System.Boolean},VerifyTests.VerifySettings,System.Object,VerifyTests.FileScrubber)">
+            <summary>
+            Verifies the contents of a <see cref="T:System.IO.Compression.ZipArchive" />
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.VerifyBase.VerifyZip(System.String,System.Func{System.IO.Compression.ZipArchiveEntry,System.Boolean},VerifyTests.VerifySettings,System.Object,VerifyTests.FileScrubber)">
+            <summary>
+            Verifies the contents of a <see cref="T:System.IO.Compression.ZipArchive" />
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.VerifyBase.VerifyZip(System.IO.Stream,System.Func{System.IO.Compression.ZipArchiveEntry,System.Boolean},VerifyTests.VerifySettings,System.Object,VerifyTests.FileScrubber)">
+            <summary>
+            Verifies the contents of a <see cref="T:System.IO.Compression.ZipArchive" />
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.VerifyBase.VerifyDirectory(System.String,System.Func{System.String,System.Boolean},System.String,System.IO.SearchOption,VerifyTests.VerifySettings,System.Object,VerifyTests.FileScrubber)">
+            <summary>
+            Verifies the contents of <paramref name="path"/>.
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.VerifyBase.VerifyDirectory(System.IO.DirectoryInfo,System.Func{System.String,System.Boolean},System.String,System.IO.SearchOption,VerifyTests.VerifySettings,System.Object,VerifyTests.FileScrubber)">
+            <summary>
+            Verifies the contents of <paramref name="path"/>.
+            Differs from passing <see cref="T:System.IO.DirectoryInfo"/> to <code>Verify(object? target)</code> which will verify the full path.
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.VerifyBase.VerifyFile(System.String,VerifyTests.VerifySettings,System.Object)">
+            <summary>
+            Verifies the contents of <paramref name="path" />.
+            </summary>
+        </member>
+        <member name="M:VerifyXunit.VerifyBase.VerifyFile(System.IO.FileInfo,VerifyTests.VerifySettings,System.Object)">
+            <summary>
+            Verifies the contents of <paramref name="path" />.
+            Differs from passing <see cref="T:System.IO.FileInfo" /> to <code>Verify(object? target)</code> which will verify the full path.
+            </summary>
+        </member>
+    </members>
+</doc>
