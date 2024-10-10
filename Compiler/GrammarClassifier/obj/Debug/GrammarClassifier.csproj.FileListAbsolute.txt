@@ -1,0 +1,10 @@
+F:\GithubRepository\HomeworkWHU\Compiler\GrammarClassifier\obj\Debug\GrammarClassifier.csproj.AssemblyReference.cache
+F:\GithubRepository\HomeworkWHU\Compiler\GrammarClassifier\obj\Debug\GrammarClassifier.Form1.resources
+F:\GithubRepository\HomeworkWHU\Compiler\GrammarClassifier\obj\Debug\GrammarClassifier.Properties.Resources.resources
+F:\GithubRepository\HomeworkWHU\Compiler\GrammarClassifier\obj\Debug\GrammarClassifier.csproj.GenerateResource.cache
+F:\GithubRepository\HomeworkWHU\Compiler\GrammarClassifier\obj\Debug\GrammarClassifier.csproj.CoreCompileInputs.cache
+F:\GithubRepository\HomeworkWHU\Compiler\GrammarClassifier\bin\Debug\GrammarClassifier.exe.config
+F:\GithubRepository\HomeworkWHU\Compiler\GrammarClassifier\bin\Debug\GrammarClassifier.exe
+F:\GithubRepository\HomeworkWHU\Compiler\GrammarClassifier\bin\Debug\GrammarClassifier.pdb
+F:\GithubRepository\HomeworkWHU\Compiler\GrammarClassifier\obj\Debug\GrammarClassifier.exe
+F:\GithubRepository\HomeworkWHU\Compiler\GrammarClassifier\obj\Debug\GrammarClassifier.pdb

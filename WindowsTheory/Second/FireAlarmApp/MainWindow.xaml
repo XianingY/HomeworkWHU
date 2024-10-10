@@ -1,0 +1,52 @@
+﻿<Window x:Class="FireAlarmApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Fire Alarm" Height="350" Width="525" Background="#F0F4F7">
+
+    <Window.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#2D4F6B"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="1" 
+                                CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
+            <TextBlock Text="Fire Alarm System" FontSize="20" FontWeight="Bold" Foreground="#2D4F6B" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+                <Button x:Name="btnBind1" Content="绑定处理1" Width="120" Height="40" Margin="0,0,10,0" Style="{StaticResource ButtonStyle}"/>
+                <Button x:Name="btnBind2" Content="绑定处理2" Width="120" Height="40" Style="{StaticResource ButtonStyle}"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+                <Button x:Name="btnUnbind1" Content="解绑处理1" Width="120" Height="40" Margin="0,0,10,0" Style="{StaticResource ButtonStyle}"/>
+                <Button x:Name="btnUnbind2" Content="解绑处理2" Width="120" Height="40" Style="{StaticResource ButtonStyle}"/>
+            </StackPanel>
+
+            <Button x:Name="btnTrigger1" Content="触发火警1" Width="250" Height="40" Margin="0,10,0,0" Style="{StaticResource ButtonStyle}"/>
+        </StackPanel>
+    </Grid>
+
+</Window>

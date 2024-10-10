@@ -1,0 +1,14 @@
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Second\FireAlarmApp\bin\Debug\FireAlarmApp.exe.config
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Second\FireAlarmApp\bin\Debug\FireAlarmApp.exe
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Second\FireAlarmApp\bin\Debug\FireAlarmApp.pdb
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Second\FireAlarmApp\obj\Debug\FireAlarmApp.csproj.AssemblyReference.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Second\FireAlarmApp\obj\Debug\MainWindow.g.cs
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Second\FireAlarmApp\obj\Debug\App.g.cs
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Second\FireAlarmApp\obj\Debug\FireAlarmApp_MarkupCompile.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Second\FireAlarmApp\obj\Debug\MainWindow.baml
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Second\FireAlarmApp\obj\Debug\FireAlarmApp.g.resources
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Second\FireAlarmApp\obj\Debug\FireAlarmApp.Properties.Resources.resources
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Second\FireAlarmApp\obj\Debug\FireAlarmApp.csproj.GenerateResource.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Second\FireAlarmApp\obj\Debug\FireAlarmApp.csproj.CoreCompileInputs.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Second\FireAlarmApp\obj\Debug\FireAlarmApp.exe
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Second\FireAlarmApp\obj\Debug\FireAlarmApp.pdb
