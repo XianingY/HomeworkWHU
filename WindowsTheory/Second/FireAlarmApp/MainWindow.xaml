@@ -36,16 +36,16 @@
             <TextBlock Text="Fire Alarm System" FontSize="20" FontWeight="Bold" Foreground="#2D4F6B" Margin="0,0,0,20" HorizontalAlignment="Center"/>
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
-                <Button x:Name="btnBind1" Content="绑定处理1" Width="120" Height="40" Margin="0,0,10,0" Style="{StaticResource ButtonStyle}"/>
-                <Button x:Name="btnBind2" Content="绑定处理2" Width="120" Height="40" Style="{StaticResource ButtonStyle}"/>
+                <Button x:Name="btnBind1" Content="绑定1" Width="120" Height="40" Margin="0,0,10,0" Style="{StaticResource ButtonStyle}"/>
+                <Button x:Name="btnBind2" Content="绑定2" Width="120" Height="40" Style="{StaticResource ButtonStyle}"/>
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
-                <Button x:Name="btnUnbind1" Content="解绑处理1" Width="120" Height="40" Margin="0,0,10,0" Style="{StaticResource ButtonStyle}"/>
-                <Button x:Name="btnUnbind2" Content="解绑处理2" Width="120" Height="40" Style="{StaticResource ButtonStyle}"/>
+                <Button x:Name="btnUnbind1" Content="解绑1" Width="120" Height="40" Margin="0,0,10,0" Style="{StaticResource ButtonStyle}"/>
+                <Button x:Name="btnUnbind2" Content="解绑2" Width="120" Height="40" Style="{StaticResource ButtonStyle}"/>
             </StackPanel>
 
-            <Button x:Name="btnTrigger1" Content="触发火警1" Width="250" Height="40" Margin="0,10,0,0" Style="{StaticResource ButtonStyle}"/>
+            <Button x:Name="btnTrigger1" Content="触发火警" Width="250" Height="40" Margin="0,10,0,0" Style="{StaticResource ButtonStyle}"/>
         </StackPanel>
     </Grid>
 

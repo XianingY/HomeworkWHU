@@ -21,7 +21,8 @@ namespace FireAlarmApp
 
     public class FireAlarmTrigger
     {
-        // 使用事件和委托来触发事件
+        // 使用事件和委托来触发事件,隐含委托的定义
+        
         public event EventHandler<FireAlarmEventArgs> FireAlarmTriggered;
 
         // 触发火警事件
