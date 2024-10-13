@@ -1,0 +1,15 @@
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\bin\Debug\net8.0\Ping2.exe
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\bin\Debug\net8.0\Ping2.deps.json
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\bin\Debug\net8.0\Ping2.runtimeconfig.json
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\bin\Debug\net8.0\Ping2.dll
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\bin\Debug\net8.0\Ping2.pdb
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\obj\Debug\net8.0\Ping2.GeneratedMSBuildEditorConfig.editorconfig
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\obj\Debug\net8.0\Ping2.AssemblyInfoInputs.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\obj\Debug\net8.0\Ping2.AssemblyInfo.cs
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\obj\Debug\net8.0\Ping2.csproj.CoreCompileInputs.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\obj\Debug\net8.0\Ping2.sourcelink.json
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\obj\Debug\net8.0\Ping2.dll
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\obj\Debug\net8.0\refint\Ping2.dll
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\obj\Debug\net8.0\Ping2.pdb
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\obj\Debug\net8.0\Ping2.genruntimeconfig.cache
+F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\Ping2\obj\Debug\net8.0\ref\Ping2.dll

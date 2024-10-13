@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingExperiment", "PingExperiment.csproj", "{8FC590FF-79DF-478A-ABF5-ECCD95AE8623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ping2", "..\Ping2\Ping2.csproj", "{3D0C6455-94A4-4AC5-9C8C-57980A1D9A56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FC590FF-79DF-478A-ABF5-ECCD95AE8623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC590FF-79DF-478A-ABF5-ECCD95AE8623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC590FF-79DF-478A-ABF5-ECCD95AE8623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC590FF-79DF-478A-ABF5-ECCD95AE8623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0C6455-94A4-4AC5-9C8C-57980A1D9A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0C6455-94A4-4AC5-9C8C-57980A1D9A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0C6455-94A4-4AC5-9C8C-57980A1D9A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0C6455-94A4-4AC5-9C8C-57980A1D9A56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB1B0817-D7BB-4D52-A740-57C025A0C22A}
+	EndGlobalSection
+EndGlobal
