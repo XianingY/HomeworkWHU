@@ -1,0 +1,10 @@
+F:\GithubRepository\HomeworkWHU\dotNet\4\CountApp\bin\Debug\CountApp.exe.config
+F:\GithubRepository\HomeworkWHU\dotNet\4\CountApp\bin\Debug\CountApp.exe
+F:\GithubRepository\HomeworkWHU\dotNet\4\CountApp\bin\Debug\CountApp.pdb
+F:\GithubRepository\HomeworkWHU\dotNet\4\CountApp\obj\Debug\CountApp.csproj.AssemblyReference.cache
+F:\GithubRepository\HomeworkWHU\dotNet\4\CountApp\obj\Debug\CountApp.Properties.Resources.resources
+F:\GithubRepository\HomeworkWHU\dotNet\4\CountApp\obj\Debug\CountApp.csproj.GenerateResource.cache
+F:\GithubRepository\HomeworkWHU\dotNet\4\CountApp\obj\Debug\CountApp.csproj.CoreCompileInputs.cache
+F:\GithubRepository\HomeworkWHU\dotNet\4\CountApp\obj\Debug\CountApp.exe
+F:\GithubRepository\HomeworkWHU\dotNet\4\CountApp\obj\Debug\CountApp.pdb
+F:\GithubRepository\HomeworkWHU\dotNet\4\CountApp\obj\Debug\CountApp.Form1.resources

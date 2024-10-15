@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\4\\AlarmClock\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BACB9086-5D87-4CF7-AD32-405B31FD50E4}|AlarmClock.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\4\\alarmclock\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BACB9086-5D87-4CF7-AD32-405B31FD50E4}|AlarmClock.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACB9086-5D87-4CF7-AD32-405B31FD50E4}|AlarmClock.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\4\\alarmclock\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACB9086-5D87-4CF7-AD32-405B31FD50E4}|AlarmClock.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACB9086-5D87-4CF7-AD32-405B31FD50E4}|AlarmClock.csproj|f:\\githubrepository\\homeworkwhu\\dotnet\\4\\alarmclock\\classlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACB9086-5D87-4CF7-AD32-405B31FD50E4}|AlarmClock.csproj|solutionrelative:classlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClassLib.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\4\\AlarmClock\\ClassLib.cs",
+              "RelativeDocumentMoniker": "ClassLib.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\4\\AlarmClock\\ClassLib.cs",
+              "RelativeToolTip": "ClassLib.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAUwA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T06:34:10.582Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\4\\AlarmClock\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\4\\AlarmClock\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA5wBwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T06:35:08.737Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\4\\AlarmClock\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "F:\\GithubRepository\\HomeworkWHU\\dotNet\\4\\AlarmClock\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T06:33:39.14Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
