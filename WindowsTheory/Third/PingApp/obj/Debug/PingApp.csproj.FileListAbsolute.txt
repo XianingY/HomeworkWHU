@@ -8,3 +8,13 @@ F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\PingApp\obj\Debug\PingApp.cs
 F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\PingApp\obj\Debug\PingApp.csproj.CoreCompileInputs.cache
 F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\PingApp\obj\Debug\PingApp.exe
 F:\GithubRepository\HomeworkWHU\WindowsTheory\Third\PingApp\obj\Debug\PingApp.pdb
+F:\GithubRepository\Docs\windows\2022302111073-3-杨夏宁\Third\PingApp\bin\Debug\PingApp.exe.config
+F:\GithubRepository\Docs\windows\2022302111073-3-杨夏宁\Third\PingApp\bin\Debug\PingApp.exe
+F:\GithubRepository\Docs\windows\2022302111073-3-杨夏宁\Third\PingApp\bin\Debug\PingApp.pdb
+F:\GithubRepository\Docs\windows\2022302111073-3-杨夏宁\Third\PingApp\obj\Debug\PingApp.csproj.AssemblyReference.cache
+F:\GithubRepository\Docs\windows\2022302111073-3-杨夏宁\Third\PingApp\obj\Debug\PingApp.Form1.resources
+F:\GithubRepository\Docs\windows\2022302111073-3-杨夏宁\Third\PingApp\obj\Debug\PingApp.Properties.Resources.resources
+F:\GithubRepository\Docs\windows\2022302111073-3-杨夏宁\Third\PingApp\obj\Debug\PingApp.csproj.GenerateResource.cache
+F:\GithubRepository\Docs\windows\2022302111073-3-杨夏宁\Third\PingApp\obj\Debug\PingApp.csproj.CoreCompileInputs.cache
+F:\GithubRepository\Docs\windows\2022302111073-3-杨夏宁\Third\PingApp\obj\Debug\PingApp.exe
+F:\GithubRepository\Docs\windows\2022302111073-3-杨夏宁\Third\PingApp\obj\Debug\PingApp.pdb
